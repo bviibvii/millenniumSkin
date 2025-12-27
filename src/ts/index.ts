@@ -373,7 +373,9 @@ export default function millenniumSkin(): Plugin {
                                 }
                             }
                         }
-                        body.splice(i, 1, ...match);
+                        if (match.length) {
+                            body.splice(i, 1, ...match);
+                        }
                     }
                     // 处理动态引入
                     Object.entries(runtimeLinks).forEach(

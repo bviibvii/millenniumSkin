@@ -65,7 +65,7 @@ function we() {
   if (ao) return v;
   ao = 1, Object.defineProperty(v, "__esModule", {
     value: !0
-  }), v.isAccessor = xn, v.isAnyTypeAnnotation = rs, v.isArgumentPlaceholder = Js, v.isArrayExpression = c, v.isArrayPattern = Et, v.isArrayTypeAnnotation = ie, v.isArrowFunctionExpression = st, v.isAssignmentExpression = o, v.isAssignmentPattern = ct, v.isAwaitExpression = zr, v.isBigIntLiteral = Wt, v.isBinary = Ii, v.isBinaryExpression = S, v.isBindExpression = Ys, v.isBlock = wi, v.isBlockParent = Ci, v.isBlockStatement = L, v.isBooleanLiteral = Ne, v.isBooleanLiteralTypeAnnotation = Gt, v.isBooleanTypeAnnotation = ss, v.isBreakStatement = k, v.isCallExpression = O, v.isCatchClause = F, v.isClass = mn, v.isClassAccessorProperty = Qr, v.isClassBody = At, v.isClassDeclaration = vt, v.isClassExpression = gt, v.isClassImplements = as, v.isClassMethod = $, v.isClassPrivateMethod = kt, v.isClassPrivateProperty = Zr, v.isClassProperty = Gr, v.isCompletionStatement = f, v.isConditional = h, v.isConditionalExpression = j, v.isContinueStatement = R, v.isDebuggerStatement = Z, v.isDecimalLiteral = zs, v.isDeclaration = rn, v.isDeclareClass = ns, v.isDeclareExportAllDeclaration = cs, v.isDeclareExportDeclaration = Bt, v.isDeclareFunction = os, v.isDeclareInterface = ls, v.isDeclareModule = us, v.isDeclareModuleExports = pt, v.isDeclareOpaqueType = Qt, v.isDeclareTypeAlias = Ze, v.isDeclareVariable = _t, v.isDeclaredPredicate = $e, v.isDecorator = qt, v.isDirective = M, v.isDirectiveLiteral = w, v.isDoExpression = Xs, v.isDoWhileStatement = K, v.isEmptyStatement = V, v.isEmptyTypeAnnotation = at, v.isEnumBody = In, v.isEnumBooleanBody = mt, v.isEnumBooleanMember = Ds, v.isEnumDeclaration = yt, v.isEnumDefaultedMember = nr, v.isEnumMember = Nn, v.isEnumNumberBody = jt, v.isEnumNumberMember = Kt, v.isEnumStringBody = Os, v.isEnumStringMember = Ls, v.isEnumSymbolBody = Ut, v.isExistsTypeAnnotation = Ue, v.isExportAllDeclaration = It, v.isExportDeclaration = Tn, v.isExportDefaultDeclaration = Nt, v.isExportDefaultSpecifier = $s, v.isExportNamedDeclaration = Be, v.isExportNamespaceSpecifier = zt, v.isExportSpecifier = He, v.isExpression = vi, v.isExpressionStatement = A, v.isExpressionWrapper = _, v.isFile = Y, v.isFlow = Pn, v.isFlowBaseAnnotation = An, v.isFlowDeclaration = gn, v.isFlowPredicate = vn, v.isFlowType = En, v.isFor = ee, v.isForInStatement = te, v.isForOfStatement = Ct, v.isForStatement = se, v.isForXStatement = Ae, v.isFunction = Ce, v.isFunctionDeclaration = Te, v.isFunctionExpression = be, v.isFunctionParameter = sn, v.isFunctionParent = tt, v.isFunctionTypeAnnotation = et, v.isFunctionTypeParam = ps, v.isGenericTypeAnnotation = fs, v.isIdentifier = ve, v.isIfStatement = ge, v.isImmutable = un, v.isImport = $t, v.isImportAttribute = ts, v.isImportDeclaration = Ge, v.isImportDefaultSpecifier = _e, v.isImportExpression = wt, v.isImportNamespaceSpecifier = it, v.isImportOrExportDeclaration = Yi, v.isImportSpecifier = Qe, v.isIndexedAccessType = H, v.isInferredPredicate = ds, v.isInterfaceDeclaration = ft, v.isInterfaceExtends = hs, v.isInterfaceTypeAnnotation = ys, v.isInterpreterDirective = x, v.isIntersectionTypeAnnotation = Zt, v.isJSX = Cn, v.isJSXAttribute = or, v.isJSXClosingElement = Ms, v.isJSXClosingFragment = dr, v.isJSXElement = _s, v.isJSXEmptyExpression = Bs, v.isJSXExpressionContainer = Fs, v.isJSXFragment = fr, v.isJSXIdentifier = Rs, v.isJSXMemberExpression = ur, v.isJSXNamespacedName = cr, v.isJSXOpeningElement = js, v.isJSXOpeningFragment = Ks, v.isJSXSpreadAttribute = Us, v.isJSXSpreadChild = lr, v.isJSXText = pr, v.isLVal = nn, v.isLabeledStatement = ue, v.isLiteral = ln, v.isLogicalExpression = Je, v.isLoop = b, v.isMemberExpression = z, v.isMetaProperty = Ot, v.isMethod = pn, v.isMiscellaneous = wn, v.isMixedTypeAnnotation = ms, v.isModuleDeclaration = Rn, v.isModuleExpression = Hs, v.isModuleSpecifier = Sn, v.isNewExpression = ne, v.isNoop = Vs, v.isNullLiteral = je, v.isNullLiteralTypeAnnotation = is, v.isNullableTypeAnnotation = Ke, v.isNumberLiteral = Mn, v.isNumberLiteralTypeAnnotation = Ts, v.isNumberTypeAnnotation = Ft, v.isNumericLiteral = q, v.isObjectExpression = Q, v.isObjectMember = fn, v.isObjectMethod = ce, v.isObjectPattern = $r, v.isObjectProperty = ye, v.isObjectTypeAnnotation = Ss, v.isObjectTypeCallProperty = dt, v.isObjectTypeIndexer = tr, v.isObjectTypeInternalSlot = er, v.isObjectTypeProperty = xs, v.isObjectTypeSpreadProperty = bs, v.isOpaqueType = Rt, v.isOptionalCallExpression = Hr, v.isOptionalIndexedAccessType = ks, v.isOptionalMemberExpression = Ht, v.isParenthesizedExpression = Oe, v.isPattern = yn, v.isPatternLike = an, v.isPipelineBareFunction = yr, v.isPipelinePrimaryTopicReference = Qs, v.isPipelineTopicExpression = ot, v.isPlaceholder = qs, v.isPrivate = bn, v.isPrivateName = Mt, v.isProgram = W, v.isProperty = dn, v.isPureish = tn, v.isQualifiedTypeIdentifier = rr, v.isRecordExpression = hr, v.isRegExpLiteral = Me, v.isRegexLiteral = _n, v.isRestElement = Se, v.isRestProperty = Bn, v.isReturnStatement = me, v.isScopable = Ni, v.isSequenceExpression = Ee, v.isSpreadElement = Dt, v.isSpreadProperty = Fn, v.isStandardized = gi, v.isStatement = Oi, v.isStaticBlock = es, v.isStringLiteral = ae, v.isStringLiteralTypeAnnotation = sr, v.isStringTypeAnnotation = nt, v.isSuper = Fe, v.isSwitchCase = De, v.isSwitchStatement = re, v.isSymbolTypeAnnotation = Ps, v.isTSAnyKeyword = D, v.isTSArrayType = vr, v.isTSAsExpression = Yr, v.isTSBaseType = kn, v.isTSBigIntKeyword = J, v.isTSBooleanKeyword = B, v.isTSCallSignatureDeclaration = u, v.isTSConditionalType = Lr, v.isTSConstructSignatureDeclaration = T, v.isTSConstructorType = br, v.isTSDeclareFunction = e, v.isTSDeclareMethod = r, v.isTSEntityName = on, v.isTSEnumBody = ui, v.isTSEnumDeclaration = ci, v.isTSEnumMember = pi, v.isTSExportAssignment = Si, v.isTSExpressionWithTypeArguments = Ur, v.isTSExternalModuleReference = mi, v.isTSFunctionType = xr, v.isTSImportEqualsDeclaration = yi, v.isTSImportType = hi, v.isTSIndexSignature = C, v.isTSIndexedAccessType = Br, v.isTSInferType = kr, v.isTSInstantiationExpression = Jr, v.isTSInterfaceBody = Vr, v.isTSInterfaceDeclaration = Kr, v.isTSIntersectionType = Dr, v.isTSIntrinsicKeyword = X, v.isTSLiteralType = jr, v.isTSMappedType = Fr, v.isTSMethodSignature = g, v.isTSModuleBlock = di, v.isTSModuleDeclaration = fi, v.isTSNamedTupleMember = wr, v.isTSNamespaceExportDeclaration = xi, v.isTSNeverKeyword = G, v.isTSNonNullExpression = Ti, v.isTSNullKeyword = de, v.isTSNumberKeyword = Pe, v.isTSObjectKeyword = oe, v.isTSOptionalType = Nr, v.isTSParameterProperty = t, v.isTSParenthesizedType = Mr, v.isTSPropertySignature = P, v.isTSQualifiedName = i, v.isTSRestType = Cr, v.isTSSatisfiesExpression = oi, v.isTSStringKeyword = xe, v.isTSSymbolKeyword = We, v.isTSTemplateLiteralType = Rr, v.isTSThisType = Sr, v.isTSTupleType = Ir, v.isTSType = Ln, v.isTSTypeAliasDeclaration = qr, v.isTSTypeAnnotation = bi, v.isTSTypeAssertion = li, v.isTSTypeElement = Dn, v.isTSTypeLiteral = gr, v.isTSTypeOperator = _r, v.isTSTypeParameter = Ai, v.isTSTypeParameterDeclaration = Ei, v.isTSTypeParameterInstantiation = Pi, v.isTSTypePredicate = Er, v.isTSTypeQuery = Ar, v.isTSTypeReference = Pr, v.isTSUndefinedKeyword = qe, v.isTSUnionType = Or, v.isTSUnknownKeyword = mr, v.isTSVoidKeyword = Tr, v.isTaggedTemplateExpression = Xe, v.isTemplateElement = Lt, v.isTemplateLiteral = Xt, v.isTerminatorless = p, v.isThisExpression = le, v.isThisTypeAnnotation = Ve, v.isThrowStatement = St, v.isTopicReference = Gs, v.isTryStatement = pe, v.isTupleExpression = Ws, v.isTupleTypeAnnotation = Es, v.isTypeAlias = gs, v.isTypeAnnotation = ht, v.isTypeCastExpression = ir, v.isTypeParameter = vs, v.isTypeParameterDeclaration = Is, v.isTypeParameterInstantiation = Ns, v.isTypeScript = On, v.isTypeofTypeAnnotation = As, v.isUnaryExpression = xt, v.isUnaryLike = hn, v.isUnionTypeAnnotation = Cs, v.isUpdateExpression = Le, v.isUserWhitespacable = cn, v.isV8IntrinsicIdentifier = Vt, v.isVariableDeclaration = ut, v.isVariableDeclarator = bt, v.isVariance = ar, v.isVoidPattern = y, v.isVoidTypeAnnotation = ws, v.isWhile = N, v.isWhileStatement = Ye, v.isWithStatement = Pt, v.isYieldExpression = Wr;
+  }), v.isAccessor = xn, v.isAnyTypeAnnotation = rs, v.isArgumentPlaceholder = Js, v.isArrayExpression = c, v.isArrayPattern = Et, v.isArrayTypeAnnotation = ie, v.isArrowFunctionExpression = st, v.isAssignmentExpression = o, v.isAssignmentPattern = ct, v.isAwaitExpression = zr, v.isBigIntLiteral = Wt, v.isBinary = Ii, v.isBinaryExpression = S, v.isBindExpression = Ys, v.isBlock = wi, v.isBlockParent = Ci, v.isBlockStatement = L, v.isBooleanLiteral = Ne, v.isBooleanLiteralTypeAnnotation = Gt, v.isBooleanTypeAnnotation = ss, v.isBreakStatement = k, v.isCallExpression = O, v.isCatchClause = F, v.isClass = mn, v.isClassAccessorProperty = Qr, v.isClassBody = At, v.isClassDeclaration = vt, v.isClassExpression = gt, v.isClassImplements = as, v.isClassMethod = $, v.isClassPrivateMethod = kt, v.isClassPrivateProperty = Zr, v.isClassProperty = Gr, v.isCompletionStatement = f, v.isConditional = h, v.isConditionalExpression = j, v.isContinueStatement = R, v.isDebuggerStatement = Z, v.isDecimalLiteral = zs, v.isDeclaration = rn, v.isDeclareClass = ns, v.isDeclareExportAllDeclaration = cs, v.isDeclareExportDeclaration = Bt, v.isDeclareFunction = os, v.isDeclareInterface = ls, v.isDeclareModule = us, v.isDeclareModuleExports = pt, v.isDeclareOpaqueType = Qt, v.isDeclareTypeAlias = Ze, v.isDeclareVariable = _t, v.isDeclaredPredicate = $e, v.isDecorator = qt, v.isDirective = M, v.isDirectiveLiteral = w, v.isDoExpression = Xs, v.isDoWhileStatement = U, v.isEmptyStatement = V, v.isEmptyTypeAnnotation = at, v.isEnumBody = In, v.isEnumBooleanBody = mt, v.isEnumBooleanMember = Ds, v.isEnumDeclaration = yt, v.isEnumDefaultedMember = nr, v.isEnumMember = Nn, v.isEnumNumberBody = jt, v.isEnumNumberMember = Kt, v.isEnumStringBody = Os, v.isEnumStringMember = Ls, v.isEnumSymbolBody = Ut, v.isExistsTypeAnnotation = Ue, v.isExportAllDeclaration = It, v.isExportDeclaration = Tn, v.isExportDefaultDeclaration = Nt, v.isExportDefaultSpecifier = $s, v.isExportNamedDeclaration = Be, v.isExportNamespaceSpecifier = zt, v.isExportSpecifier = He, v.isExpression = vi, v.isExpressionStatement = A, v.isExpressionWrapper = _, v.isFile = Y, v.isFlow = Pn, v.isFlowBaseAnnotation = An, v.isFlowDeclaration = gn, v.isFlowPredicate = vn, v.isFlowType = En, v.isFor = ee, v.isForInStatement = te, v.isForOfStatement = Ct, v.isForStatement = se, v.isForXStatement = Ae, v.isFunction = Ce, v.isFunctionDeclaration = Te, v.isFunctionExpression = be, v.isFunctionParameter = sn, v.isFunctionParent = tt, v.isFunctionTypeAnnotation = et, v.isFunctionTypeParam = ps, v.isGenericTypeAnnotation = fs, v.isIdentifier = ve, v.isIfStatement = ge, v.isImmutable = un, v.isImport = $t, v.isImportAttribute = ts, v.isImportDeclaration = Ge, v.isImportDefaultSpecifier = _e, v.isImportExpression = wt, v.isImportNamespaceSpecifier = it, v.isImportOrExportDeclaration = Yi, v.isImportSpecifier = Qe, v.isIndexedAccessType = H, v.isInferredPredicate = ds, v.isInterfaceDeclaration = ft, v.isInterfaceExtends = hs, v.isInterfaceTypeAnnotation = ys, v.isInterpreterDirective = x, v.isIntersectionTypeAnnotation = Zt, v.isJSX = Cn, v.isJSXAttribute = or, v.isJSXClosingElement = Ms, v.isJSXClosingFragment = dr, v.isJSXElement = _s, v.isJSXEmptyExpression = Bs, v.isJSXExpressionContainer = Fs, v.isJSXFragment = fr, v.isJSXIdentifier = Rs, v.isJSXMemberExpression = ur, v.isJSXNamespacedName = cr, v.isJSXOpeningElement = js, v.isJSXOpeningFragment = Ks, v.isJSXSpreadAttribute = Us, v.isJSXSpreadChild = lr, v.isJSXText = pr, v.isLVal = nn, v.isLabeledStatement = ue, v.isLiteral = ln, v.isLogicalExpression = Je, v.isLoop = b, v.isMemberExpression = z, v.isMetaProperty = Ot, v.isMethod = pn, v.isMiscellaneous = wn, v.isMixedTypeAnnotation = ms, v.isModuleDeclaration = Rn, v.isModuleExpression = Hs, v.isModuleSpecifier = Sn, v.isNewExpression = ne, v.isNoop = Vs, v.isNullLiteral = je, v.isNullLiteralTypeAnnotation = is, v.isNullableTypeAnnotation = Ke, v.isNumberLiteral = Mn, v.isNumberLiteralTypeAnnotation = Ts, v.isNumberTypeAnnotation = Ft, v.isNumericLiteral = q, v.isObjectExpression = Q, v.isObjectMember = fn, v.isObjectMethod = ce, v.isObjectPattern = $r, v.isObjectProperty = ye, v.isObjectTypeAnnotation = Ss, v.isObjectTypeCallProperty = dt, v.isObjectTypeIndexer = tr, v.isObjectTypeInternalSlot = er, v.isObjectTypeProperty = xs, v.isObjectTypeSpreadProperty = bs, v.isOpaqueType = Rt, v.isOptionalCallExpression = Hr, v.isOptionalIndexedAccessType = ks, v.isOptionalMemberExpression = Ht, v.isParenthesizedExpression = Oe, v.isPattern = yn, v.isPatternLike = an, v.isPipelineBareFunction = yr, v.isPipelinePrimaryTopicReference = Qs, v.isPipelineTopicExpression = ot, v.isPlaceholder = qs, v.isPrivate = bn, v.isPrivateName = Mt, v.isProgram = W, v.isProperty = dn, v.isPureish = tn, v.isQualifiedTypeIdentifier = rr, v.isRecordExpression = hr, v.isRegExpLiteral = Me, v.isRegexLiteral = _n, v.isRestElement = Se, v.isRestProperty = Bn, v.isReturnStatement = me, v.isScopable = Ni, v.isSequenceExpression = Ee, v.isSpreadElement = Dt, v.isSpreadProperty = Fn, v.isStandardized = gi, v.isStatement = Oi, v.isStaticBlock = es, v.isStringLiteral = ae, v.isStringLiteralTypeAnnotation = sr, v.isStringTypeAnnotation = nt, v.isSuper = Fe, v.isSwitchCase = De, v.isSwitchStatement = re, v.isSymbolTypeAnnotation = Ps, v.isTSAnyKeyword = D, v.isTSArrayType = vr, v.isTSAsExpression = Yr, v.isTSBaseType = kn, v.isTSBigIntKeyword = J, v.isTSBooleanKeyword = B, v.isTSCallSignatureDeclaration = u, v.isTSConditionalType = Lr, v.isTSConstructSignatureDeclaration = T, v.isTSConstructorType = br, v.isTSDeclareFunction = e, v.isTSDeclareMethod = r, v.isTSEntityName = on, v.isTSEnumBody = ui, v.isTSEnumDeclaration = ci, v.isTSEnumMember = pi, v.isTSExportAssignment = Si, v.isTSExpressionWithTypeArguments = Ur, v.isTSExternalModuleReference = mi, v.isTSFunctionType = xr, v.isTSImportEqualsDeclaration = yi, v.isTSImportType = hi, v.isTSIndexSignature = C, v.isTSIndexedAccessType = Br, v.isTSInferType = kr, v.isTSInstantiationExpression = Jr, v.isTSInterfaceBody = Vr, v.isTSInterfaceDeclaration = Kr, v.isTSIntersectionType = Dr, v.isTSIntrinsicKeyword = X, v.isTSLiteralType = jr, v.isTSMappedType = Fr, v.isTSMethodSignature = g, v.isTSModuleBlock = di, v.isTSModuleDeclaration = fi, v.isTSNamedTupleMember = wr, v.isTSNamespaceExportDeclaration = xi, v.isTSNeverKeyword = G, v.isTSNonNullExpression = Ti, v.isTSNullKeyword = de, v.isTSNumberKeyword = Pe, v.isTSObjectKeyword = oe, v.isTSOptionalType = Nr, v.isTSParameterProperty = t, v.isTSParenthesizedType = Mr, v.isTSPropertySignature = P, v.isTSQualifiedName = i, v.isTSRestType = Cr, v.isTSSatisfiesExpression = oi, v.isTSStringKeyword = xe, v.isTSSymbolKeyword = We, v.isTSTemplateLiteralType = Rr, v.isTSThisType = Sr, v.isTSTupleType = Ir, v.isTSType = Ln, v.isTSTypeAliasDeclaration = qr, v.isTSTypeAnnotation = bi, v.isTSTypeAssertion = li, v.isTSTypeElement = Dn, v.isTSTypeLiteral = gr, v.isTSTypeOperator = _r, v.isTSTypeParameter = Ai, v.isTSTypeParameterDeclaration = Ei, v.isTSTypeParameterInstantiation = Pi, v.isTSTypePredicate = Er, v.isTSTypeQuery = Ar, v.isTSTypeReference = Pr, v.isTSUndefinedKeyword = qe, v.isTSUnionType = Or, v.isTSUnknownKeyword = mr, v.isTSVoidKeyword = Tr, v.isTaggedTemplateExpression = Xe, v.isTemplateElement = Lt, v.isTemplateLiteral = Xt, v.isTerminatorless = p, v.isThisExpression = le, v.isThisTypeAnnotation = Ve, v.isThrowStatement = St, v.isTopicReference = Gs, v.isTryStatement = pe, v.isTupleExpression = Ws, v.isTupleTypeAnnotation = Es, v.isTypeAlias = gs, v.isTypeAnnotation = ht, v.isTypeCastExpression = ir, v.isTypeParameter = vs, v.isTypeParameterDeclaration = Is, v.isTypeParameterInstantiation = Ns, v.isTypeScript = On, v.isTypeofTypeAnnotation = As, v.isUnaryExpression = xt, v.isUnaryLike = hn, v.isUnionTypeAnnotation = Cs, v.isUpdateExpression = Le, v.isUserWhitespacable = cn, v.isV8IntrinsicIdentifier = Vt, v.isVariableDeclaration = ut, v.isVariableDeclarator = bt, v.isVariance = ar, v.isVoidPattern = y, v.isVoidTypeAnnotation = ws, v.isWhile = N, v.isWhileStatement = Ye, v.isWithStatement = Pt, v.isYieldExpression = Wr;
   var n = Hn(), l = Ui();
   function c(a, s) {
     return !a || a.type !== "ArrayExpression" ? !1 : s == null || (0, n.default)(a, s);
@@ -106,7 +106,7 @@ function we() {
   function Z(a, s) {
     return !a || a.type !== "DebuggerStatement" ? !1 : s == null || (0, n.default)(a, s);
   }
-  function K(a, s) {
+  function U(a, s) {
     return !a || a.type !== "DoWhileStatement" ? !1 : s == null || (0, n.default)(a, s);
   }
   function V(a, s) {
@@ -2288,14 +2288,14 @@ function wu() {
     hex: (k) => k >= 48 && k <= 57 || k >= 65 && k <= 70 || k >= 97 && k <= 102
   };
   function o(k, O, F, j, R, Z) {
-    const K = F, V = j, A = R;
+    const U = F, V = j, A = R;
     let Y = "", te = null, se = F;
     const {
       length: Te
     } = O;
     for (; ; ) {
       if (F >= Te) {
-        Z.unterminated(K, V, A), Y += O.slice(se, F);
+        Z.unterminated(U, V, A), Y += O.slice(se, F);
         break;
       }
       const be = O.charCodeAt(F);
@@ -2316,7 +2316,7 @@ function wu() {
           curLine: R
         } = ve, se = F;
       } else be === 8232 || be === 8233 ? (++F, ++R, j = F) : be === 10 || be === 13 ? k === "template" ? (Y += O.slice(se, F) + `
-`, ++F, be === 13 && O.charCodeAt(F) === 10 && ++F, ++R, se = j = F) : Z.unterminated(K, V, A) : ++F;
+`, ++F, be === 13 && O.charCodeAt(F) === 10 && ++F, ++R, se = j = F) : Z.unterminated(U, V, A) : ++F;
     }
     return {
       pos: F,
@@ -2331,7 +2331,7 @@ function wu() {
     return k === "template" ? O === 96 || O === 36 && F.charCodeAt(j + 1) === 123 : O === (k === "double" ? 34 : 39);
   }
   function x(k, O, F, j, R, Z) {
-    const K = !R;
+    const U = !R;
     O++;
     const V = (Y) => ({
       pos: O,
@@ -2350,14 +2350,14 @@ function wu() {
         return {
           code: Y,
           pos: O
-        } = M(k, O, F, j, 2, !1, K, Z), V(Y === null ? null : String.fromCharCode(Y));
+        } = M(k, O, F, j, 2, !1, U, Z), V(Y === null ? null : String.fromCharCode(Y));
       }
       case 117: {
         let Y;
         return {
           code: Y,
           pos: O
-        } = L(k, O, F, j, K, Z), V(Y === null ? null : String.fromCodePoint(Y));
+        } = L(k, O, F, j, U, Z), V(Y === null ? null : String.fromCodePoint(Y));
       }
       case 116:
         return V("	");
@@ -2395,18 +2395,18 @@ function wu() {
         return V(String.fromCharCode(A));
     }
   }
-  function M(k, O, F, j, R, Z, K, V) {
+  function M(k, O, F, j, R, Z, U, V) {
     const A = O;
     let Y;
     return {
       n: Y,
       pos: O
-    } = w(k, O, F, j, 16, R, Z, !1, V, !K), Y === null && (K ? V.invalidEscapeSequence(A, F, j) : O = A - 1), {
+    } = w(k, O, F, j, 16, R, Z, !1, V, !U), Y === null && (U ? V.invalidEscapeSequence(A, F, j) : O = A - 1), {
       code: Y,
       pos: O
     };
   }
-  function w(k, O, F, j, R, Z, K, V, A, Y) {
+  function w(k, O, F, j, R, Z, U, V, A, Y) {
     const te = O, se = R === 16 ? l.hex : l.decBinOct, Te = R === 16 ? c.hex : R === 10 ? c.dec : R === 8 ? c.oct : c.bin;
     let be = !1, ve = 0;
     for (let ge = 0, ue = Z ?? 1 / 0; ge < ue; ++ge) {
@@ -2440,7 +2440,7 @@ function wu() {
           };
         if (q <= 9 && A.invalidDigit(O, F, j, R))
           q = 0;
-        else if (K)
+        else if (U)
           q = 0, be = !0;
         else
           break;
@@ -2456,9 +2456,9 @@ function wu() {
     };
   }
   function L(k, O, F, j, R, Z) {
-    const K = k.charCodeAt(O);
+    const U = k.charCodeAt(O);
     let V;
-    if (K === 123) {
+    if (U === 123) {
       if (++O, {
         code: V,
         pos: O
@@ -2503,7 +2503,7 @@ function Yt() {
   if (bo) return he;
   bo = 1, Object.defineProperty(he, "__esModule", {
     value: !0
-  }), he.allExpandedTypes = he.VISITOR_KEYS = he.NODE_UNION_SHAPES__PRIVATE = he.NODE_PARENT_VALIDATIONS = he.NODE_FIELDS = he.FLIPPED_ALIAS_KEYS = he.DEPRECATED_KEYS = he.BUILDER_KEYS = he.ALIAS_KEYS = void 0, he.arrayOf = K, he.arrayOfType = V, he.assertEach = Y, he.assertNodeOrValueType = be, he.assertNodeType = Te, he.assertOneOf = te, he.assertOptionalChainStart = ue, he.assertShape = ge, he.assertValueType = ve, he.chain = ae, he.default = Je, he.defineAliasedType = Me, he.validate = F, he.validateArrayOfType = A, he.validateOptional = R, he.validateOptionalType = Z, he.validateType = j;
+  }), he.allExpandedTypes = he.VISITOR_KEYS = he.NODE_UNION_SHAPES__PRIVATE = he.NODE_PARENT_VALIDATIONS = he.NODE_FIELDS = he.FLIPPED_ALIAS_KEYS = he.DEPRECATED_KEYS = he.BUILDER_KEYS = he.ALIAS_KEYS = void 0, he.arrayOf = U, he.arrayOfType = V, he.assertEach = Y, he.assertNodeOrValueType = be, he.assertNodeType = Te, he.assertOneOf = te, he.assertOptionalChainStart = ue, he.assertShape = ge, he.assertValueType = ve, he.chain = ae, he.default = Je, he.defineAliasedType = Me, he.validate = F, he.validateArrayOfType = A, he.validateOptional = R, he.validateOptionalType = Z, he.validateType = j;
   var n = Ki(), l = Zn();
   const c = he.VISITOR_KEYS = {}, o = he.ALIAS_KEYS = {}, S = he.FLIPPED_ALIAS_KEYS = {}, x = he.NODE_FIELDS = {}, M = he.BUILDER_KEYS = {}, w = he.DEPRECATED_KEYS = {}, L = he.NODE_PARENT_VALIDATIONS = {}, k = he.NODE_UNION_SHAPES__PRIVATE = {};
   function O(z) {
@@ -2529,11 +2529,11 @@ function Yt() {
       optional: !0
     };
   }
-  function K(z) {
+  function U(z) {
     return ae(ve("array"), Y(z));
   }
   function V(...z) {
-    return K(Te(...z));
+    return U(Te(...z));
   }
   function A(...z) {
     return F(V(...z));
@@ -2718,7 +2718,7 @@ function Za() {
     value: !0
   }), ke.patternLikeCommon = ke.importAttributes = ke.functionTypeAnnotationCommon = ke.functionDeclarationCommon = ke.functionCommon = ke.classMethodOrPropertyUnionShapeCommon = ke.classMethodOrPropertyCommon = ke.classMethodOrDeclareMethodCommon = void 0;
   var n = Ki(), l = Vi(), c = Qn(), o = wu(), S = qi(), x = Yt();
-  const M = (K = !1) => ({
+  const M = (U = !1) => ({
     unionShape: {
       discriminator: "computed",
       shapes: [{
@@ -2734,7 +2734,7 @@ function Za() {
         value: [!1],
         properties: {
           key: {
-            validate: K ? (0, x.assertNodeType)("Identifier", "StringLiteral", "NumericLiteral", "BigIntLiteral", "PrivateName") : (0, x.assertNodeType)("Identifier", "StringLiteral", "NumericLiteral", "BigIntLiteral")
+            validate: U ? (0, x.assertNodeType)("Identifier", "StringLiteral", "NumericLiteral", "BigIntLiteral", "PrivateName") : (0, x.assertNodeType)("Identifier", "StringLiteral", "NumericLiteral", "BigIntLiteral")
           }
         }
       }]
@@ -2755,9 +2755,9 @@ function Za() {
     fields: {
       operator: {
         validate: process.env.BABEL_TYPES_8_BREAKING ? Object.assign((function() {
-          const K = (0, x.assertOneOf)(...S.ASSIGNMENT_OPERATORS), V = (0, x.assertOneOf)("=");
+          const U = (0, x.assertOneOf)(...S.ASSIGNMENT_OPERATORS), V = (0, x.assertOneOf)("=");
           return function(A, Y, te) {
-            ((0, n.default)("Pattern", A.left) ? V : K)(A, Y, te);
+            ((0, n.default)("Pattern", A.left) ? V : U)(A, Y, te);
           };
         })(), {
           oneOf: S.ASSIGNMENT_OPERATORS
@@ -2781,9 +2781,9 @@ function Za() {
       },
       left: {
         validate: (function() {
-          const K = (0, x.assertNodeType)("Expression"), V = (0, x.assertNodeType)("Expression", "PrivateName");
+          const U = (0, x.assertNodeType)("Expression"), V = (0, x.assertNodeType)("Expression", "PrivateName");
           return Object.assign(function(Y, te, se) {
-            (Y.operator === "in" ? V : K)(Y, te, se);
+            (Y.operator === "in" ? V : U)(Y, te, se);
           }, {
             oneOfNodeTypes: ["Expression", "PrivateName"]
           });
@@ -3022,9 +3022,9 @@ function Za() {
     }),
     aliases: ["Scopable", "Function", "BlockParent", "FunctionParent", "Statement", "Pureish", "Declaration"],
     validate: process.env.BABEL_TYPES_8_BREAKING ? (function() {
-      const K = (0, x.assertNodeType)("Identifier");
+      const U = (0, x.assertNodeType)("Identifier");
       return function(V, A, Y) {
-        (0, n.default)("ExportDefaultDeclaration", V) || K(Y, "id", Y.id);
+        (0, n.default)("ExportDefaultDeclaration", V) || U(Y, "id", Y.id);
       };
     })() : void 0
   }), w("FunctionExpression", {
@@ -3064,7 +3064,7 @@ function Za() {
     aliases: ["Expression", "FunctionParameter", "PatternLike", "LVal", "TSEntityName"],
     fields: Object.assign({}, F(), {
       name: {
-        validate: process.env.BABEL_TYPES_8_BREAKING ? (0, x.chain)((0, x.assertValueType)("string"), Object.assign(function(K, V, A) {
+        validate: process.env.BABEL_TYPES_8_BREAKING ? (0, x.chain)((0, x.assertValueType)("string"), Object.assign(function(U, V, A) {
           if (!(0, l.default)(A, !1))
             throw new TypeError(`"${A}" is not a valid identifier name`);
         }, {
@@ -3072,23 +3072,23 @@ function Za() {
         })) : (0, x.assertValueType)("string")
       }
     }),
-    validate: process.env.BABEL_TYPES_8_BREAKING ? function(K, V, A) {
+    validate: process.env.BABEL_TYPES_8_BREAKING ? function(U, V, A) {
       const Y = /\.(\w+)$/.exec(V.toString());
       if (!Y) return;
       const [, te] = Y, se = {
         computed: !1
       };
       if (te === "property") {
-        if ((0, n.default)("MemberExpression", K, se) || (0, n.default)("OptionalMemberExpression", K, se)) return;
+        if ((0, n.default)("MemberExpression", U, se) || (0, n.default)("OptionalMemberExpression", U, se)) return;
       } else if (te === "key") {
-        if ((0, n.default)("Property", K, se) || (0, n.default)("Method", K, se)) return;
+        if ((0, n.default)("Property", U, se) || (0, n.default)("Method", U, se)) return;
       } else if (te === "exported") {
-        if ((0, n.default)("ExportSpecifier", K)) return;
+        if ((0, n.default)("ExportSpecifier", U)) return;
       } else if (te === "imported") {
-        if ((0, n.default)("ImportSpecifier", K, {
+        if ((0, n.default)("ImportSpecifier", U, {
           imported: A
         })) return;
-      } else if (te === "meta" && (0, n.default)("MetaProperty", K, {
+      } else if (te === "meta" && (0, n.default)("MetaProperty", U, {
         meta: A
       }))
         return;
@@ -3134,7 +3134,7 @@ function Za() {
     deprecatedAlias: "NumberLiteral",
     fields: {
       value: {
-        validate: (0, x.chain)((0, x.assertValueType)("number"), Object.assign(function(K, V, A) {
+        validate: (0, x.chain)((0, x.assertValueType)("number"), Object.assign(function(U, V, A) {
         }, {
           type: "number"
         }))
@@ -3160,7 +3160,7 @@ function Za() {
         validate: (0, x.assertValueType)("string")
       },
       flags: {
-        validate: process.env.BABEL_TYPES_8_BREAKING ? (0, x.chain)((0, x.assertValueType)("string"), Object.assign(function(K, V, A) {
+        validate: process.env.BABEL_TYPES_8_BREAKING ? (0, x.chain)((0, x.assertValueType)("string"), Object.assign(function(U, V, A) {
           const Y = /[^dgimsuvy]/.exec(A);
           if (Y)
             throw new TypeError(`"${Y[0]}" is not a valid RegExp flag`);
@@ -3215,8 +3215,8 @@ function Za() {
       },
       property: {
         validate: (function() {
-          const K = (0, x.assertNodeType)("Identifier", "PrivateName"), V = (0, x.assertNodeType)("Expression"), A = function(Y, te, se) {
-            (Y.computed ? V : K)(Y, te, se);
+          const U = (0, x.assertNodeType)("Identifier", "PrivateName"), V = (0, x.assertNodeType)("Expression"), A = function(Y, te, se) {
+            (Y.computed ? V : U)(Y, te, se);
           };
           return A.oneOfNodeTypes = ["Expression", "Identifier", "PrivateName"], A;
         })()
@@ -3273,8 +3273,8 @@ function Za() {
       },
       key: {
         validate: (function() {
-          const K = (0, x.assertNodeType)("Identifier", "StringLiteral", "NumericLiteral", "BigIntLiteral"), V = (0, x.assertNodeType)("Expression"), A = function(Y, te, se) {
-            (Y.computed ? V : K)(Y, te, se);
+          const U = (0, x.assertNodeType)("Identifier", "StringLiteral", "NumericLiteral", "BigIntLiteral"), V = (0, x.assertNodeType)("Expression"), A = function(Y, te, se) {
+            (Y.computed ? V : U)(Y, te, se);
           };
           return A.oneOfNodeTypes = ["Expression", "Identifier", "StringLiteral", "NumericLiteral", "BigIntLiteral"], A;
         })()
@@ -3316,9 +3316,9 @@ function Za() {
       },
       key: {
         validate: (function() {
-          const K = (0, x.assertNodeType)("Identifier", "StringLiteral", "NumericLiteral", "BigIntLiteral", "DecimalLiteral", "PrivateName"), V = (0, x.assertNodeType)("Expression");
+          const U = (0, x.assertNodeType)("Identifier", "StringLiteral", "NumericLiteral", "BigIntLiteral", "DecimalLiteral", "PrivateName"), V = (0, x.assertNodeType)("Expression");
           return Object.assign(function(Y, te, se) {
-            (Y.computed ? V : K)(Y, te, se);
+            (Y.computed ? V : U)(Y, te, se);
           }, {
             oneOfNodeTypes: ["Expression", "Identifier", "StringLiteral", "NumericLiteral", "BigIntLiteral", "DecimalLiteral", "PrivateName"]
           });
@@ -3328,11 +3328,11 @@ function Za() {
         validate: (0, x.assertNodeType)("Expression", "PatternLike")
       },
       shorthand: {
-        validate: process.env.BABEL_TYPES_8_BREAKING ? (0, x.chain)((0, x.assertValueType)("boolean"), Object.assign(function(K, V, A) {
+        validate: process.env.BABEL_TYPES_8_BREAKING ? (0, x.chain)((0, x.assertValueType)("boolean"), Object.assign(function(U, V, A) {
           if (A) {
-            if (K.computed)
+            if (U.computed)
               throw new TypeError("Property shorthand of ObjectProperty cannot be true if computed is true");
-            if (!(0, n.default)("Identifier", K.key))
+            if (!(0, n.default)("Identifier", U.key))
               throw new TypeError("Property shorthand of ObjectProperty cannot be true if key is not an Identifier");
           }
         }, {
@@ -3348,9 +3348,9 @@ function Za() {
     visitor: ["decorators", "key", "value"],
     aliases: ["UserWhitespacable", "Property", "ObjectMember"],
     validate: process.env.BABEL_TYPES_8_BREAKING ? (function() {
-      const K = (0, x.assertNodeType)("Identifier", "Pattern", "TSAsExpression", "TSSatisfiesExpression", "TSNonNullExpression", "TSTypeAssertion"), V = (0, x.assertNodeType)("Expression");
+      const U = (0, x.assertNodeType)("Identifier", "Pattern", "TSAsExpression", "TSSatisfiesExpression", "TSNonNullExpression", "TSTypeAssertion"), V = (0, x.assertNodeType)("Expression");
       return function(A, Y, te) {
-        ((0, n.default)("ObjectPattern", A) ? K : V)(te, "value", te.value);
+        ((0, n.default)("ObjectPattern", A) ? U : V)(te, "value", te.value);
       };
     })() : void 0
   }), w("RestElement", {
@@ -3363,11 +3363,11 @@ function Za() {
         validate: process.env.BABEL_TYPES_8_BREAKING ? (0, x.assertNodeType)("Identifier", "ArrayPattern", "ObjectPattern", "MemberExpression", "TSAsExpression", "TSSatisfiesExpression", "TSTypeAssertion", "TSNonNullExpression") : (0, x.assertNodeType)("Identifier", "ArrayPattern", "ObjectPattern", "MemberExpression", "TSAsExpression", "TSSatisfiesExpression", "TSTypeAssertion", "TSNonNullExpression", "RestElement", "AssignmentPattern")
       }
     }),
-    validate: process.env.BABEL_TYPES_8_BREAKING ? function(K, V) {
+    validate: process.env.BABEL_TYPES_8_BREAKING ? function(U, V) {
       const A = /(\w+)\[(\d+)\]/.exec(V.toString());
       if (!A) throw new Error("Internal Babel error: malformed key.");
       const [, Y, te] = A;
-      if (K[Y].length > +te + 1)
+      if (U[Y].length > +te + 1)
         throw new TypeError(`RestElement must be last element of ${Y}`);
     } : void 0
   }), w("ReturnStatement", {
@@ -3426,8 +3426,8 @@ function Za() {
     aliases: ["Statement"],
     fields: {
       block: {
-        validate: process.env.BABEL_TYPES_8_BREAKING ? (0, x.chain)((0, x.assertNodeType)("BlockStatement"), Object.assign(function(K) {
-          if (!K.handler && !K.finalizer)
+        validate: process.env.BABEL_TYPES_8_BREAKING ? (0, x.chain)((0, x.assertNodeType)("BlockStatement"), Object.assign(function(U) {
+          if (!U.handler && !U.finalizer)
             throw new TypeError("TryStatement expects either a handler or finalizer, or both");
         }, {
           oneOfNodeTypes: ["BlockStatement"]
@@ -3487,7 +3487,7 @@ function Za() {
       declarations: (0, x.validateArrayOfType)("VariableDeclarator")
     },
     validate: process.env.BABEL_TYPES_8_BREAKING ? (() => {
-      const K = (0, x.assertNodeType)("Identifier", "Placeholder"), V = (0, x.assertNodeType)("Identifier", "ArrayPattern", "ObjectPattern", "Placeholder"), A = (0, x.assertNodeType)("Identifier", "VoidPattern", "Placeholder");
+      const U = (0, x.assertNodeType)("Identifier", "Placeholder"), V = (0, x.assertNodeType)("Identifier", "ArrayPattern", "ObjectPattern", "Placeholder"), A = (0, x.assertNodeType)("Identifier", "VoidPattern", "Placeholder");
       return function(Y, te, se) {
         const {
           kind: Te,
@@ -3498,7 +3498,7 @@ function Za() {
         if (ve && be.length !== 1)
           throw new TypeError(`Exactly one VariableDeclarator is required in the VariableDeclaration of a ${Y.type}`);
         for (const ge of be)
-          Te === "const" || Te === "let" || Te === "var" ? !ve && !ge.init ? K(ge, "id", ge.id) : V(ge, "id", ge.id) : A(ge, "id", ge.id);
+          Te === "const" || Te === "let" || Te === "var" ? !ve && !ge.init ? U(ge, "id", ge.id) : V(ge, "id", ge.id) : A(ge, "id", ge.id);
       };
     })() : void 0
   }), w("VariableDeclarator", {
@@ -3666,9 +3666,9 @@ function Za() {
       }
     },
     validate: process.env.BABEL_TYPES_8_BREAKING ? (function() {
-      const K = (0, x.assertNodeType)("Identifier");
+      const U = (0, x.assertNodeType)("Identifier");
       return function(V, A, Y) {
-        (0, n.default)("ExportDefaultDeclaration", V) || K(Y, "id", Y.id);
+        (0, n.default)("ExportDefaultDeclaration", V) || U(Y, "id", Y.id);
       };
     })() : void 0
   });
@@ -3707,10 +3707,10 @@ function Za() {
     fields: Object.assign({
       declaration: {
         optional: !0,
-        validate: process.env.BABEL_TYPES_8_BREAKING ? (0, x.chain)((0, x.assertNodeType)("Declaration"), Object.assign(function(K, V, A) {
-          if (A && K.specifiers.length)
+        validate: process.env.BABEL_TYPES_8_BREAKING ? (0, x.chain)((0, x.assertNodeType)("Declaration"), Object.assign(function(U, V, A) {
+          if (A && U.specifiers.length)
             throw new TypeError("Only declaration or specifiers is allowed on ExportNamedDeclaration");
-          if (A && K.source)
+          if (A && U.source)
             throw new TypeError("Cannot export a declaration from a source");
         }, {
           oneOfNodeTypes: ["Declaration"]
@@ -3720,12 +3720,12 @@ function Za() {
       specifiers: {
         default: [],
         validate: (0, x.arrayOf)((function() {
-          const K = (0, x.assertNodeType)("ExportSpecifier", "ExportDefaultSpecifier", "ExportNamespaceSpecifier"), V = (0, x.assertNodeType)("ExportSpecifier");
+          const U = (0, x.assertNodeType)("ExportSpecifier", "ExportDefaultSpecifier", "ExportNamespaceSpecifier"), V = (0, x.assertNodeType)("ExportSpecifier");
           return process.env.BABEL_TYPES_8_BREAKING ? Object.assign(function(A, Y, te) {
-            (A.source ? K : V)(A, Y, te);
+            (A.source ? U : V)(A, Y, te);
           }, {
             oneOfNodeTypes: ["ExportSpecifier", "ExportDefaultSpecifier", "ExportNamespaceSpecifier"]
-          }) : K;
+          }) : U;
         })())
       },
       source: {
@@ -3758,9 +3758,9 @@ function Za() {
         validate: (function() {
           if (!process.env.BABEL_TYPES_8_BREAKING)
             return (0, x.assertNodeType)("VariableDeclaration", "LVal");
-          const K = (0, x.assertNodeType)("VariableDeclaration"), V = (0, x.assertNodeType)("Identifier", "MemberExpression", "ArrayPattern", "ObjectPattern", "TSAsExpression", "TSSatisfiesExpression", "TSTypeAssertion", "TSNonNullExpression");
+          const U = (0, x.assertNodeType)("VariableDeclaration"), V = (0, x.assertNodeType)("Identifier", "MemberExpression", "ArrayPattern", "ObjectPattern", "TSAsExpression", "TSSatisfiesExpression", "TSTypeAssertion", "TSNonNullExpression");
           return Object.assign(function(A, Y, te) {
-            (0, n.default)("VariableDeclaration", te) ? K(A, Y, te) : V(A, Y, te);
+            (0, n.default)("VariableDeclaration", te) ? U(A, Y, te) : V(A, Y, te);
           }, {
             oneOfNodeTypes: ["VariableDeclaration", "Identifier", "MemberExpression", "ArrayPattern", "ObjectPattern", "TSAsExpression", "TSSatisfiesExpression", "TSTypeAssertion", "TSNonNullExpression"]
           });
@@ -3851,7 +3851,7 @@ function Za() {
     aliases: ["Expression"],
     fields: {
       meta: {
-        validate: process.env.BABEL_TYPES_8_BREAKING ? (0, x.chain)((0, x.assertNodeType)("Identifier"), Object.assign(function(K, V, A) {
+        validate: process.env.BABEL_TYPES_8_BREAKING ? (0, x.chain)((0, x.assertNodeType)("Identifier"), Object.assign(function(U, V, A) {
           let Y;
           switch (A.name) {
             case "function":
@@ -3864,7 +3864,7 @@ function Za() {
               Y = "meta";
               break;
           }
-          if (!(0, n.default)("Identifier", K.property, {
+          if (!(0, n.default)("Identifier", U.property, {
             name: Y
           }))
             throw new TypeError("Unrecognised MetaProperty");
@@ -3901,9 +3901,9 @@ function Za() {
     },
     key: {
       validate: (0, x.chain)((function() {
-        const K = (0, x.assertNodeType)("Identifier", "StringLiteral", "NumericLiteral", "BigIntLiteral"), V = (0, x.assertNodeType)("Expression");
+        const U = (0, x.assertNodeType)("Identifier", "StringLiteral", "NumericLiteral", "BigIntLiteral"), V = (0, x.assertNodeType)("Expression");
         return function(A, Y, te) {
-          (A.computed ? V : K)(A, Y, te);
+          (A.computed ? V : U)(A, Y, te);
         };
       })(), (0, x.assertNodeType)("Identifier", "StringLiteral", "NumericLiteral", "BigIntLiteral", "Expression"))
     }
@@ -4013,10 +4013,10 @@ function Za() {
     fields: {
       quasis: (0, x.validateArrayOfType)("TemplateElement"),
       expressions: {
-        validate: (0, x.chain)((0, x.assertValueType)("array"), (0, x.assertEach)((0, x.assertNodeType)("Expression", "TSType")), function(K, V, A) {
-          if (K.quasis.length !== A.length + 1)
-            throw new TypeError(`Number of ${K.type} quasis should be exactly one more than the number of expressions.
-Expected ${A.length + 1} quasis but got ${K.quasis.length}`);
+        validate: (0, x.chain)((0, x.assertValueType)("array"), (0, x.assertEach)((0, x.assertNodeType)("Expression", "TSType")), function(U, V, A) {
+          if (U.quasis.length !== A.length + 1)
+            throw new TypeError(`Number of ${U.type} quasis should be exactly one more than the number of expressions.
+Expected ${A.length + 1} quasis but got ${U.quasis.length}`);
         })
       }
     }
@@ -4026,8 +4026,8 @@ Expected ${A.length + 1} quasis but got ${K.quasis.length}`);
     aliases: ["Expression", "Terminatorless"],
     fields: {
       delegate: {
-        validate: process.env.BABEL_TYPES_8_BREAKING ? (0, x.chain)((0, x.assertValueType)("boolean"), Object.assign(function(K, V, A) {
-          if (A && !K.argument)
+        validate: process.env.BABEL_TYPES_8_BREAKING ? (0, x.chain)((0, x.assertValueType)("boolean"), Object.assign(function(U, V, A) {
+          if (A && !U.argument)
             throw new TypeError("Property delegate of YieldExpression cannot be true if there is no argument");
         }, {
           type: "boolean"
@@ -4076,9 +4076,9 @@ Expected ${A.length + 1} quasis but got ${K.quasis.length}`);
       },
       property: {
         validate: (function() {
-          const K = (0, x.assertNodeType)("Identifier"), V = (0, x.assertNodeType)("Expression");
+          const U = (0, x.assertNodeType)("Identifier"), V = (0, x.assertNodeType)("Expression");
           return Object.assign(function(Y, te, se) {
-            (Y.computed ? V : K)(Y, te, se);
+            (Y.computed ? V : U)(Y, te, se);
           }, {
             oneOfNodeTypes: ["Expression", "Identifier"]
           });
@@ -4156,9 +4156,9 @@ Expected ${A.length + 1} quasis but got ${K.quasis.length}`);
     fields: Object.assign({}, R(), {
       key: {
         validate: (0, x.chain)((function() {
-          const K = (0, x.assertNodeType)("Identifier", "StringLiteral", "NumericLiteral", "BigIntLiteral", "PrivateName"), V = (0, x.assertNodeType)("Expression");
+          const U = (0, x.assertNodeType)("Identifier", "StringLiteral", "NumericLiteral", "BigIntLiteral", "PrivateName"), V = (0, x.assertNodeType)("Expression");
           return function(A, Y, te) {
-            (A.computed ? V : K)(A, Y, te);
+            (A.computed ? V : U)(A, Y, te);
           };
         })(), (0, x.assertNodeType)("Identifier", "StringLiteral", "NumericLiteral", "BigIntLiteral", "Expression", "PrivateName"))
       },
@@ -5264,10 +5264,10 @@ function Mu() {
     fields: {
       quasis: (0, n.validateArrayOfType)("TemplateElement"),
       types: {
-        validate: (0, n.chain)((0, n.assertValueType)("array"), (0, n.assertEach)((0, n.assertNodeType)("TSType")), function(R, Z, K) {
-          if (R.quasis.length !== K.length + 1)
+        validate: (0, n.chain)((0, n.assertValueType)("array"), (0, n.assertEach)((0, n.assertNodeType)("TSType")), function(R, Z, U) {
+          if (R.quasis.length !== U.length + 1)
             throw new TypeError(`Number of ${R.type} quasis should be exactly one more than the number of types.
-Expected ${K.length + 1} quasis but got ${R.quasis.length}`);
+Expected ${U.length + 1} quasis but got ${R.quasis.length}`);
         })
       }
     }
@@ -5277,8 +5277,8 @@ Expected ${K.length + 1} quasis but got ${R.quasis.length}`);
     fields: {
       literal: {
         validate: (function() {
-          const R = (0, n.assertNodeType)("NumericLiteral", "BigIntLiteral"), Z = (0, n.assertOneOf)("-"), K = (0, n.assertNodeType)("NumericLiteral", "StringLiteral", "BooleanLiteral", "BigIntLiteral", "TemplateLiteral"), V = function(Y, te, se) {
-            (0, c.default)("UnaryExpression", se) ? (Z(se, "operator", se.operator), R(se, "argument", se.argument)) : K(Y, te, se);
+          const R = (0, n.assertNodeType)("NumericLiteral", "BigIntLiteral"), Z = (0, n.assertOneOf)("-"), U = (0, n.assertNodeType)("NumericLiteral", "StringLiteral", "BooleanLiteral", "BigIntLiteral", "TemplateLiteral"), V = function(Y, te, se) {
+            (0, c.default)("UnaryExpression", se) ? (Z(se, "operator", se.operator), R(se, "argument", se.argument)) : U(Y, te, se);
           };
           return V.oneOfNodeTypes = ["NumericLiteral", "StringLiteral", "BooleanLiteral", "BigIntLiteral", "TemplateLiteral", "UnaryExpression"], V;
         })()
@@ -5602,7 +5602,7 @@ function au() {
   if (Bo) return E;
   Bo = 1, Object.defineProperty(E, "__esModule", {
     value: !0
-  }), E.anyTypeAnnotation = Gt, E.argumentPlaceholder = Xs, E.arrayExpression = M, E.arrayPattern = vt, E.arrayTypeAnnotation = is, E.arrowFunctionExpression = It, E.assignmentExpression = w, E.assignmentPattern = gt, E.awaitExpression = Ht, E.bigIntLiteral = x, E.binaryExpression = L, E.bindExpression = $s, E.blockStatement = j, E.booleanLiteral = ne, E.booleanLiteralTypeAnnotation = ns, E.booleanTypeAnnotation = as, E.breakStatement = R, E.callExpression = Z, E.catchClause = K, E.classAccessorProperty = Mt, E.classBody = Nt, E.classDeclaration = He, E.classExpression = Be, E.classImplements = ls, E.classMethod = Xe, E.classPrivateMethod = ts, E.classPrivateProperty = es, E.classProperty = kt, E.conditionalExpression = V, E.continueStatement = A, E.debuggerStatement = Y, E.decimalLiteral = ot, E.declareClass = us, E.declareExportAllDeclaration = et, E.declareExportDeclaration = Ue, E.declareFunction = pt, E.declareInterface = Ze, E.declareModule = Qt, E.declareModuleExports = _t, E.declareOpaqueType = cs, E.declareTypeAlias = Bt, E.declareVariable = $e, E.declaredPredicate = ps, E.decorator = hr, E.directive = O, E.directiveLiteral = F, E.doExpression = Ws, E.doWhileStatement = te, E.emptyStatement = se, E.emptyTypeAnnotation = Ft, E.enumBooleanBody = Ut, E.enumBooleanMember = nr, E.enumDeclaration = Os, E.enumDefaultedMember = or, E.enumNumberBody = Ds, E.enumNumberMember = H, E.enumStringBody = Kt, E.enumStringMember = ks, E.enumSymbolBody = Ls, E.existsTypeAnnotation = fs, E.exportAllDeclaration = Ct, E.exportDefaultDeclaration = Ge, E.exportDefaultSpecifier = zs, E.exportNamedDeclaration = _e, E.exportNamespaceSpecifier = Gr, E.exportSpecifier = it, E.expressionStatement = Te, E.file = be, E.forInStatement = ve, E.forOfStatement = Qe, E.forStatement = ge, E.functionDeclaration = ue, E.functionExpression = ae, E.functionTypeAnnotation = ds, E.functionTypeParam = hs, E.genericTypeAnnotation = ft, E.identifier = q, E.ifStatement = je, E.import = Hr, E.importAttribute = ss, E.importDeclaration = wt, E.importDefaultSpecifier = Ot, E.importExpression = Dt, E.importNamespaceSpecifier = $, E.importSpecifier = $r, E.indexedAccessType = Ms, E.inferredPredicate = ys, E.interfaceDeclaration = ms, E.interfaceExtends = Zt, E.interfaceTypeAnnotation = at, E.interpreterDirective = k, E.intersectionTypeAnnotation = Ke, E.jSXAttribute = E.jsxAttribute = Bs, E.jSXClosingElement = E.jsxClosingElement = Fs, E.jSXClosingFragment = E.jsxClosingFragment = Vt, E.jSXElement = E.jsxElement = lr, E.jSXEmptyExpression = E.jsxEmptyExpression = Rs, E.jSXExpressionContainer = E.jsxExpressionContainer = ur, E.jSXFragment = E.jsxFragment = Vs, E.jSXIdentifier = E.jsxIdentifier = js, E.jSXMemberExpression = E.jsxMemberExpression = Us, E.jSXNamespacedName = E.jsxNamespacedName = pr, E.jSXOpeningElement = E.jsxOpeningElement = fr, E.jSXOpeningFragment = E.jsxOpeningFragment = qs, E.jSXSpreadAttribute = E.jsxSpreadAttribute = Ks, E.jSXSpreadChild = E.jsxSpreadChild = cr, E.jSXText = E.jsxText = dr, E.labeledStatement = Ne, E.logicalExpression = Q, E.memberExpression = ce, E.metaProperty = Fe, E.mixedTypeAnnotation = Ts, E.moduleExpression = yr, E.newExpression = ye, E.noop = Js, E.nullLiteral = z, E.nullLiteralTypeAnnotation = os, E.nullableTypeAnnotation = Ss, E.numberLiteral = Ni, E.numberLiteralTypeAnnotation = er, E.numberTypeAnnotation = dt, E.numericLiteral = Je, E.objectExpression = me, E.objectMethod = Ee, E.objectPattern = Lt, E.objectProperty = Oe, E.objectTypeAnnotation = tr, E.objectTypeCallProperty = bs, E.objectTypeIndexer = Rt, E.objectTypeInternalSlot = xs, E.objectTypeProperty = rr, E.objectTypeSpreadProperty = sr, E.opaqueType = nt, E.optionalCallExpression = Zr, E.optionalIndexedAccessType = _s, E.optionalMemberExpression = Qr, E.parenthesizedExpression = St, E.pipelineBareFunction = t, E.pipelinePrimaryTopicReference = e, E.pipelineTopicExpression = y, E.placeholder = Ys, E.privateName = rs, E.program = Se, E.qualifiedTypeIdentifier = Ps, E.recordExpression = Hs, E.regExpLiteral = W, E.regexLiteral = Ci, E.restElement = De, E.restProperty = wi, E.returnStatement = re, E.sequenceExpression = le, E.spreadElement = Xt, E.spreadProperty = Oi, E.staticBlock = ie, E.stringLiteral = Me, E.stringLiteralTypeAnnotation = Ve, E.stringTypeAnnotation = Es, E.super = Wr, E.switchCase = pe, E.switchStatement = xt, E.symbolTypeAnnotation = As, E.taggedTemplateExpression = zr, E.templateElement = $t, E.templateLiteral = Wt, E.thisExpression = Le, E.thisTypeAnnotation = gs, E.throwStatement = ut, E.topicReference = Qs, E.tryStatement = bt, E.tSAnyKeyword = E.tsAnyKeyword = X, E.tSArrayType = E.tsArrayType = Cr, E.tSAsExpression = E.tsAsExpression = ui, E.tSBigIntKeyword = E.tsBigIntKeyword = de, E.tSBooleanKeyword = E.tsBooleanKeyword = G, E.tSCallSignatureDeclaration = E.tsCallSignatureDeclaration = g, E.tSConditionalType = E.tsConditionalType = _r, E.tSConstructSignatureDeclaration = E.tsConstructSignatureDeclaration = C, E.tSConstructorType = E.tsConstructorType = Ar, E.tSDeclareFunction = E.tsDeclareFunction = u, E.tSDeclareMethod = E.tsDeclareMethod = T, E.tSEnumBody = E.tsEnumBody = fi, E.tSEnumDeclaration = E.tsEnumDeclaration = di, E.tSEnumMember = E.tsEnumMember = hi, E.tSExportAssignment = E.tsExportAssignment = Pi, E.tSExpressionWithTypeArguments = E.tsExpressionWithTypeArguments = qr, E.tSExternalModuleReference = E.tsExternalModuleReference = xi, E.tSFunctionType = E.tsFunctionType = Er, E.tSImportEqualsDeclaration = E.tsImportEqualsDeclaration = Si, E.tSImportType = E.tsImportType = Ti, E.tSIndexSignature = E.tsIndexSignature = J, E.tSIndexedAccessType = E.tsIndexedAccessType = jr, E.tSInferType = E.tsInferType = Br, E.tSInstantiationExpression = E.tsInstantiationExpression = li, E.tSInterfaceBody = E.tsInterfaceBody = Yr, E.tSInterfaceDeclaration = E.tsInterfaceDeclaration = Jr, E.tSIntersectionType = E.tsIntersectionType = Mr, E.tSIntrinsicKeyword = E.tsIntrinsicKeyword = Pe, E.tSLiteralType = E.tsLiteralType = Vr, E.tSMappedType = E.tsMappedType = Ur, E.tSMethodSignature = E.tsMethodSignature = B, E.tSModuleBlock = E.tsModuleBlock = mi, E.tSModuleDeclaration = E.tsModuleDeclaration = yi, E.tSNamedTupleMember = E.tsNamedTupleMember = Lr, E.tSNamespaceExportDeclaration = E.tsNamespaceExportDeclaration = Ei, E.tSNeverKeyword = E.tsNeverKeyword = oe, E.tSNonNullExpression = E.tsNonNullExpression = bi, E.tSNullKeyword = E.tsNullKeyword = xe, E.tSNumberKeyword = E.tsNumberKeyword = We, E.tSObjectKeyword = E.tsObjectKeyword = qe, E.tSOptionalType = E.tsOptionalType = Or, E.tSParameterProperty = E.tsParameterProperty = i, E.tSParenthesizedType = E.tsParenthesizedType = Fr, E.tSPropertySignature = E.tsPropertySignature = D, E.tSQualifiedName = E.tsQualifiedName = P, E.tSRestType = E.tsRestType = Dr, E.tSSatisfiesExpression = E.tsSatisfiesExpression = ci, E.tSStringKeyword = E.tsStringKeyword = mr, E.tSSymbolKeyword = E.tsSymbolKeyword = Tr, E.tSTemplateLiteralType = E.tsTemplateLiteralType = Kr, E.tSThisType = E.tsThisType = Pr, E.tSTupleType = E.tsTupleType = wr, E.tSTypeAliasDeclaration = E.tsTypeAliasDeclaration = oi, E.tSTypeAnnotation = E.tsTypeAnnotation = Ai, E.tSTypeAssertion = E.tsTypeAssertion = pi, E.tSTypeLiteral = E.tsTypeLiteral = Nr, E.tSTypeOperator = E.tsTypeOperator = Rr, E.tSTypeParameter = E.tsTypeParameter = Ii, E.tSTypeParameterDeclaration = E.tsTypeParameterDeclaration = vi, E.tSTypeParameterInstantiation = E.tsTypeParameterInstantiation = gi, E.tSTypePredicate = E.tsTypePredicate = vr, E.tSTypeQuery = E.tsTypeQuery = Ir, E.tSTypeReference = E.tsTypeReference = gr, E.tSUndefinedKeyword = E.tsUndefinedKeyword = Sr, E.tSUnionType = E.tsUnionType = kr, E.tSUnknownKeyword = E.tsUnknownKeyword = xr, E.tSVoidKeyword = E.tsVoidKeyword = br, E.tupleExpression = Gs, E.tupleTypeAnnotation = ht, E.typeAlias = vs, E.typeAnnotation = Is, E.typeCastExpression = Ns, E.typeParameter = Cs, E.typeParameterDeclaration = ar, E.typeParameterInstantiation = ws, E.typeofTypeAnnotation = ir, E.unaryExpression = Ye, E.unionTypeAnnotation = yt, E.updateExpression = Pt, E.v8IntrinsicIdentifier = qt, E.variableDeclaration = ct, E.variableDeclarator = Et, E.variance = mt, E.voidPattern = r, E.voidTypeAnnotation = jt, E.whileStatement = st, E.withStatement = At, E.yieldExpression = zt;
+  }), E.anyTypeAnnotation = Gt, E.argumentPlaceholder = Xs, E.arrayExpression = M, E.arrayPattern = vt, E.arrayTypeAnnotation = is, E.arrowFunctionExpression = It, E.assignmentExpression = w, E.assignmentPattern = gt, E.awaitExpression = Ht, E.bigIntLiteral = x, E.binaryExpression = L, E.bindExpression = $s, E.blockStatement = j, E.booleanLiteral = ne, E.booleanLiteralTypeAnnotation = ns, E.booleanTypeAnnotation = as, E.breakStatement = R, E.callExpression = Z, E.catchClause = U, E.classAccessorProperty = Mt, E.classBody = Nt, E.classDeclaration = He, E.classExpression = Be, E.classImplements = ls, E.classMethod = Xe, E.classPrivateMethod = ts, E.classPrivateProperty = es, E.classProperty = kt, E.conditionalExpression = V, E.continueStatement = A, E.debuggerStatement = Y, E.decimalLiteral = ot, E.declareClass = us, E.declareExportAllDeclaration = et, E.declareExportDeclaration = Ue, E.declareFunction = pt, E.declareInterface = Ze, E.declareModule = Qt, E.declareModuleExports = _t, E.declareOpaqueType = cs, E.declareTypeAlias = Bt, E.declareVariable = $e, E.declaredPredicate = ps, E.decorator = hr, E.directive = O, E.directiveLiteral = F, E.doExpression = Ws, E.doWhileStatement = te, E.emptyStatement = se, E.emptyTypeAnnotation = Ft, E.enumBooleanBody = Ut, E.enumBooleanMember = nr, E.enumDeclaration = Os, E.enumDefaultedMember = or, E.enumNumberBody = Ds, E.enumNumberMember = H, E.enumStringBody = Kt, E.enumStringMember = ks, E.enumSymbolBody = Ls, E.existsTypeAnnotation = fs, E.exportAllDeclaration = Ct, E.exportDefaultDeclaration = Ge, E.exportDefaultSpecifier = zs, E.exportNamedDeclaration = _e, E.exportNamespaceSpecifier = Gr, E.exportSpecifier = it, E.expressionStatement = Te, E.file = be, E.forInStatement = ve, E.forOfStatement = Qe, E.forStatement = ge, E.functionDeclaration = ue, E.functionExpression = ae, E.functionTypeAnnotation = ds, E.functionTypeParam = hs, E.genericTypeAnnotation = ft, E.identifier = q, E.ifStatement = je, E.import = Hr, E.importAttribute = ss, E.importDeclaration = wt, E.importDefaultSpecifier = Ot, E.importExpression = Dt, E.importNamespaceSpecifier = $, E.importSpecifier = $r, E.indexedAccessType = Ms, E.inferredPredicate = ys, E.interfaceDeclaration = ms, E.interfaceExtends = Zt, E.interfaceTypeAnnotation = at, E.interpreterDirective = k, E.intersectionTypeAnnotation = Ke, E.jSXAttribute = E.jsxAttribute = Bs, E.jSXClosingElement = E.jsxClosingElement = Fs, E.jSXClosingFragment = E.jsxClosingFragment = Vt, E.jSXElement = E.jsxElement = lr, E.jSXEmptyExpression = E.jsxEmptyExpression = Rs, E.jSXExpressionContainer = E.jsxExpressionContainer = ur, E.jSXFragment = E.jsxFragment = Vs, E.jSXIdentifier = E.jsxIdentifier = js, E.jSXMemberExpression = E.jsxMemberExpression = Us, E.jSXNamespacedName = E.jsxNamespacedName = pr, E.jSXOpeningElement = E.jsxOpeningElement = fr, E.jSXOpeningFragment = E.jsxOpeningFragment = qs, E.jSXSpreadAttribute = E.jsxSpreadAttribute = Ks, E.jSXSpreadChild = E.jsxSpreadChild = cr, E.jSXText = E.jsxText = dr, E.labeledStatement = Ne, E.logicalExpression = Q, E.memberExpression = ce, E.metaProperty = Fe, E.mixedTypeAnnotation = Ts, E.moduleExpression = yr, E.newExpression = ye, E.noop = Js, E.nullLiteral = z, E.nullLiteralTypeAnnotation = os, E.nullableTypeAnnotation = Ss, E.numberLiteral = Ni, E.numberLiteralTypeAnnotation = er, E.numberTypeAnnotation = dt, E.numericLiteral = Je, E.objectExpression = me, E.objectMethod = Ee, E.objectPattern = Lt, E.objectProperty = Oe, E.objectTypeAnnotation = tr, E.objectTypeCallProperty = bs, E.objectTypeIndexer = Rt, E.objectTypeInternalSlot = xs, E.objectTypeProperty = rr, E.objectTypeSpreadProperty = sr, E.opaqueType = nt, E.optionalCallExpression = Zr, E.optionalIndexedAccessType = _s, E.optionalMemberExpression = Qr, E.parenthesizedExpression = St, E.pipelineBareFunction = t, E.pipelinePrimaryTopicReference = e, E.pipelineTopicExpression = y, E.placeholder = Ys, E.privateName = rs, E.program = Se, E.qualifiedTypeIdentifier = Ps, E.recordExpression = Hs, E.regExpLiteral = W, E.regexLiteral = Ci, E.restElement = De, E.restProperty = wi, E.returnStatement = re, E.sequenceExpression = le, E.spreadElement = Xt, E.spreadProperty = Oi, E.staticBlock = ie, E.stringLiteral = Me, E.stringLiteralTypeAnnotation = Ve, E.stringTypeAnnotation = Es, E.super = Wr, E.switchCase = pe, E.switchStatement = xt, E.symbolTypeAnnotation = As, E.taggedTemplateExpression = zr, E.templateElement = $t, E.templateLiteral = Wt, E.thisExpression = Le, E.thisTypeAnnotation = gs, E.throwStatement = ut, E.topicReference = Qs, E.tryStatement = bt, E.tSAnyKeyword = E.tsAnyKeyword = X, E.tSArrayType = E.tsArrayType = Cr, E.tSAsExpression = E.tsAsExpression = ui, E.tSBigIntKeyword = E.tsBigIntKeyword = de, E.tSBooleanKeyword = E.tsBooleanKeyword = G, E.tSCallSignatureDeclaration = E.tsCallSignatureDeclaration = g, E.tSConditionalType = E.tsConditionalType = _r, E.tSConstructSignatureDeclaration = E.tsConstructSignatureDeclaration = C, E.tSConstructorType = E.tsConstructorType = Ar, E.tSDeclareFunction = E.tsDeclareFunction = u, E.tSDeclareMethod = E.tsDeclareMethod = T, E.tSEnumBody = E.tsEnumBody = fi, E.tSEnumDeclaration = E.tsEnumDeclaration = di, E.tSEnumMember = E.tsEnumMember = hi, E.tSExportAssignment = E.tsExportAssignment = Pi, E.tSExpressionWithTypeArguments = E.tsExpressionWithTypeArguments = qr, E.tSExternalModuleReference = E.tsExternalModuleReference = xi, E.tSFunctionType = E.tsFunctionType = Er, E.tSImportEqualsDeclaration = E.tsImportEqualsDeclaration = Si, E.tSImportType = E.tsImportType = Ti, E.tSIndexSignature = E.tsIndexSignature = J, E.tSIndexedAccessType = E.tsIndexedAccessType = jr, E.tSInferType = E.tsInferType = Br, E.tSInstantiationExpression = E.tsInstantiationExpression = li, E.tSInterfaceBody = E.tsInterfaceBody = Yr, E.tSInterfaceDeclaration = E.tsInterfaceDeclaration = Jr, E.tSIntersectionType = E.tsIntersectionType = Mr, E.tSIntrinsicKeyword = E.tsIntrinsicKeyword = Pe, E.tSLiteralType = E.tsLiteralType = Vr, E.tSMappedType = E.tsMappedType = Ur, E.tSMethodSignature = E.tsMethodSignature = B, E.tSModuleBlock = E.tsModuleBlock = mi, E.tSModuleDeclaration = E.tsModuleDeclaration = yi, E.tSNamedTupleMember = E.tsNamedTupleMember = Lr, E.tSNamespaceExportDeclaration = E.tsNamespaceExportDeclaration = Ei, E.tSNeverKeyword = E.tsNeverKeyword = oe, E.tSNonNullExpression = E.tsNonNullExpression = bi, E.tSNullKeyword = E.tsNullKeyword = xe, E.tSNumberKeyword = E.tsNumberKeyword = We, E.tSObjectKeyword = E.tsObjectKeyword = qe, E.tSOptionalType = E.tsOptionalType = Or, E.tSParameterProperty = E.tsParameterProperty = i, E.tSParenthesizedType = E.tsParenthesizedType = Fr, E.tSPropertySignature = E.tsPropertySignature = D, E.tSQualifiedName = E.tsQualifiedName = P, E.tSRestType = E.tsRestType = Dr, E.tSSatisfiesExpression = E.tsSatisfiesExpression = ci, E.tSStringKeyword = E.tsStringKeyword = mr, E.tSSymbolKeyword = E.tsSymbolKeyword = Tr, E.tSTemplateLiteralType = E.tsTemplateLiteralType = Kr, E.tSThisType = E.tsThisType = Pr, E.tSTupleType = E.tsTupleType = wr, E.tSTypeAliasDeclaration = E.tsTypeAliasDeclaration = oi, E.tSTypeAnnotation = E.tsTypeAnnotation = Ai, E.tSTypeAssertion = E.tsTypeAssertion = pi, E.tSTypeLiteral = E.tsTypeLiteral = Nr, E.tSTypeOperator = E.tsTypeOperator = Rr, E.tSTypeParameter = E.tsTypeParameter = Ii, E.tSTypeParameterDeclaration = E.tsTypeParameterDeclaration = vi, E.tSTypeParameterInstantiation = E.tsTypeParameterInstantiation = gi, E.tSTypePredicate = E.tsTypePredicate = vr, E.tSTypeQuery = E.tsTypeQuery = Ir, E.tSTypeReference = E.tsTypeReference = gr, E.tSUndefinedKeyword = E.tsUndefinedKeyword = Sr, E.tSUnionType = E.tsUnionType = kr, E.tSUnknownKeyword = E.tsUnknownKeyword = xr, E.tSVoidKeyword = E.tsVoidKeyword = br, E.tupleExpression = Gs, E.tupleTypeAnnotation = ht, E.typeAlias = vs, E.typeAnnotation = Is, E.typeCastExpression = Ns, E.typeParameter = Cs, E.typeParameterDeclaration = ar, E.typeParameterInstantiation = ws, E.typeofTypeAnnotation = ir, E.unaryExpression = Ye, E.unionTypeAnnotation = yt, E.updateExpression = Pt, E.v8IntrinsicIdentifier = qt, E.variableDeclaration = ct, E.variableDeclarator = Et, E.variance = mt, E.voidPattern = r, E.voidTypeAnnotation = jt, E.whileStatement = st, E.withStatement = At, E.yieldExpression = zt;
   var n = Zn(), l = Ui(), c = Yt();
   const {
     validateInternal: o
@@ -5686,7 +5686,7 @@ function au() {
     }, b = S.CallExpression;
     return o(b.callee, h, "callee", p, 1), o(b.arguments, h, "arguments", f, 1), h;
   }
-  function K(p = null, f) {
+  function U(p = null, f) {
     const h = {
       type: "CatchClause",
       param: p,
@@ -7684,7 +7684,7 @@ function Uu() {
   if (qo) return I;
   qo = 1, Object.defineProperty(I, "__esModule", {
     value: !0
-  }), I.assertAccessor = bn, I.assertAnyTypeAnnotation = ie, I.assertArgumentPlaceholder = Ys, I.assertArrayExpression = o, I.assertArrayPattern = st, I.assertArrayTypeAnnotation = ss, I.assertArrowFunctionExpression = At, I.assertAssignmentExpression = S, I.assertAssignmentPattern = Et, I.assertAwaitExpression = $t, I.assertBigIntLiteral = zt, I.assertBinary = Ni, I.assertBinaryExpression = x, I.assertBindExpression = qt, I.assertBlock = Oi, I.assertBlockParent = wi, I.assertBlockStatement = k, I.assertBooleanLiteral = Me, I.assertBooleanLiteralTypeAnnotation = is, I.assertBooleanTypeAnnotation = Gt, I.assertBreakStatement = O, I.assertCallExpression = F, I.assertCatchClause = j, I.assertClass = Yi, I.assertClassAccessorProperty = Zr, I.assertClassBody = gt, I.assertClassDeclaration = It, I.assertClassExpression = vt, I.assertClassImplements = ns, I.assertClassMethod = $r, I.assertClassPrivateMethod = Mt, I.assertClassPrivateProperty = kt, I.assertClassProperty = Qr, I.assertCompletionStatement = h, I.assertConditional = b, I.assertConditionalExpression = R, I.assertContinueStatement = Z, I.assertDebuggerStatement = K, I.assertDecimalLiteral = Hs, I.assertDeclaration = sn, I.assertDeclareClass = os, I.assertDeclareExportAllDeclaration = $e, I.assertDeclareExportDeclaration = cs, I.assertDeclareFunction = ls, I.assertDeclareInterface = us, I.assertDeclareModule = pt, I.assertDeclareModuleExports = Ze, I.assertDeclareOpaqueType = _t, I.assertDeclareTypeAlias = Qt, I.assertDeclareVariable = Bt, I.assertDeclaredPredicate = Ue, I.assertDecorator = Xs, I.assertDirective = w, I.assertDirectiveLiteral = L, I.assertDoExpression = $s, I.assertDoWhileStatement = V, I.assertEmptyStatement = A, I.assertEmptyTypeAnnotation = Ke, I.assertEnumBody = Nn, I.assertEnumBooleanBody = jt, I.assertEnumBooleanMember = Kt, I.assertEnumDeclaration = mt, I.assertEnumDefaultedMember = H, I.assertEnumMember = Cn, I.assertEnumNumberBody = Os, I.assertEnumNumberMember = Ls, I.assertEnumStringBody = Ut, I.assertEnumStringMember = nr, I.assertEnumSymbolBody = Ds, I.assertExistsTypeAnnotation = et, I.assertExportAllDeclaration = Nt, I.assertExportDeclaration = Sn, I.assertExportDefaultDeclaration = Be, I.assertExportDefaultSpecifier = hr, I.assertExportNamedDeclaration = He, I.assertExportNamespaceSpecifier = Ht, I.assertExportSpecifier = Ct, I.assertExpression = Ii, I.assertExpressionStatement = Y, I.assertExpressionWrapper = ee, I.assertFile = te, I.assertFlow = En, I.assertFlowBaseAnnotation = gn, I.assertFlowDeclaration = vn, I.assertFlowPredicate = In, I.assertFlowType = An, I.assertFor = Ae, I.assertForInStatement = se, I.assertForOfStatement = Ge, I.assertForStatement = Te, I.assertForXStatement = Ce, I.assertFunction = tt, I.assertFunctionDeclaration = be, I.assertFunctionExpression = ve, I.assertFunctionParameter = an, I.assertFunctionParent = tn, I.assertFunctionTypeAnnotation = ps, I.assertFunctionTypeParam = fs, I.assertGenericTypeAnnotation = ds, I.assertIdentifier = ge, I.assertIfStatement = ue, I.assertImmutable = cn, I.assertImport = Wt, I.assertImportAttribute = rs, I.assertImportDeclaration = _e, I.assertImportDefaultSpecifier = it, I.assertImportExpression = Ot, I.assertImportNamespaceSpecifier = Qe, I.assertImportOrExportDeclaration = Tn, I.assertImportSpecifier = wt, I.assertIndexedAccessType = ks, I.assertInferredPredicate = hs, I.assertInterfaceDeclaration = ys, I.assertInterfaceExtends = ft, I.assertInterfaceTypeAnnotation = Zt, I.assertInterpreterDirective = M, I.assertIntersectionTypeAnnotation = ms, I.assertJSX = wn, I.assertJSXAttribute = Ms, I.assertJSXClosingElement = _s, I.assertJSXClosingFragment = Vs, I.assertJSXElement = Bs, I.assertJSXEmptyExpression = Fs, I.assertJSXExpressionContainer = lr, I.assertJSXFragment = Ks, I.assertJSXIdentifier = ur, I.assertJSXMemberExpression = cr, I.assertJSXNamespacedName = js, I.assertJSXOpeningElement = Us, I.assertJSXOpeningFragment = dr, I.assertJSXSpreadAttribute = pr, I.assertJSXSpreadChild = Rs, I.assertJSXText = fr, I.assertLVal = on, I.assertLabeledStatement = ae, I.assertLiteral = un, I.assertLogicalExpression = z, I.assertLoop = N, I.assertMemberExpression = ne, I.assertMetaProperty = $, I.assertMethod = fn, I.assertMiscellaneous = On, I.assertMixedTypeAnnotation = at, I.assertModuleDeclaration = a, I.assertModuleExpression = Gs, I.assertModuleSpecifier = xn, I.assertNewExpression = W, I.assertNoop = qs, I.assertNullLiteral = Ne, I.assertNullLiteralTypeAnnotation = as, I.assertNullableTypeAnnotation = Ts, I.assertNumberLiteral = _n, I.assertNumberLiteralTypeAnnotation = Ft, I.assertNumberTypeAnnotation = Ss, I.assertNumericLiteral = je, I.assertObjectExpression = ce, I.assertObjectMember = dn, I.assertObjectMethod = ye, I.assertObjectPattern = Dt, I.assertObjectProperty = Se, I.assertObjectTypeAnnotation = er, I.assertObjectTypeCallProperty = tr, I.assertObjectTypeIndexer = xs, I.assertObjectTypeInternalSlot = dt, I.assertObjectTypeProperty = bs, I.assertObjectTypeSpreadProperty = Rt, I.assertOpaqueType = rr, I.assertOptionalCallExpression = Gr, I.assertOptionalIndexedAccessType = or, I.assertOptionalMemberExpression = Hr, I.assertParenthesizedExpression = De, I.assertPattern = mn, I.assertPatternLike = nn, I.assertPipelineBareFunction = Qs, I.assertPipelinePrimaryTopicReference = y, I.assertPipelineTopicExpression = yr, I.assertPlaceholder = Vt, I.assertPrivate = Pn, I.assertPrivateName = es, I.assertProgram = Q, I.assertProperty = hn, I.assertPureish = rn, I.assertQualifiedTypeIdentifier = sr, I.assertRecordExpression = Ws, I.assertRegExpLiteral = Je, I.assertRegexLiteral = Bn, I.assertRestElement = me, I.assertRestProperty = Fn, I.assertReturnStatement = Ee, I.assertScopable = Ci, I.assertSequenceExpression = Oe, I.assertSpreadElement = Fe, I.assertSpreadProperty = Rn, I.assertStandardized = vi, I.assertStatement = p, I.assertStaticBlock = ts, I.assertStringLiteral = q, I.assertStringLiteralTypeAnnotation = nt, I.assertStringTypeAnnotation = Ps, I.assertSuper = Xe, I.assertSwitchCase = re, I.assertSwitchStatement = le, I.assertSymbolTypeAnnotation = Ve, I.assertTSAnyKeyword = B, I.assertTSArrayType = Ir, I.assertTSAsExpression = oi, I.assertTSBaseType = Mn, I.assertTSBigIntKeyword = X, I.assertTSBooleanKeyword = J, I.assertTSCallSignatureDeclaration = T, I.assertTSConditionalType = kr, I.assertTSConstructSignatureDeclaration = P, I.assertTSConstructorType = Pr, I.assertTSDeclareFunction = r, I.assertTSDeclareMethod = i, I.assertTSEntityName = ln, I.assertTSEnumBody = ci, I.assertTSEnumDeclaration = pi, I.assertTSEnumMember = fi, I.assertTSExportAssignment = xi, I.assertTSExpressionWithTypeArguments = Kr, I.assertTSExternalModuleReference = Ti, I.assertTSFunctionType = br, I.assertTSImportEqualsDeclaration = mi, I.assertTSImportType = yi, I.assertTSIndexSignature = D, I.assertTSIndexedAccessType = Fr, I.assertTSInferType = Mr, I.assertTSInstantiationExpression = Yr, I.assertTSInterfaceBody = qr, I.assertTSInterfaceDeclaration = Vr, I.assertTSIntersectionType = Lr, I.assertTSIntrinsicKeyword = G, I.assertTSLiteralType = Ur, I.assertTSMappedType = Rr, I.assertTSMethodSignature = C, I.assertTSModuleBlock = hi, I.assertTSModuleDeclaration = di, I.assertTSNamedTupleMember = Or, I.assertTSNamespaceExportDeclaration = bi, I.assertTSNeverKeyword = de, I.assertTSNonNullExpression = Si, I.assertTSNullKeyword = Pe, I.assertTSNumberKeyword = oe, I.assertTSObjectKeyword = xe, I.assertTSOptionalType = Cr, I.assertTSParameterProperty = e, I.assertTSParenthesizedType = _r, I.assertTSPropertySignature = g, I.assertTSQualifiedName = u, I.assertTSRestType = wr, I.assertTSSatisfiesExpression = li, I.assertTSStringKeyword = We, I.assertTSSymbolKeyword = qe, I.assertTSTemplateLiteralType = jr, I.assertTSThisType = xr, I.assertTSTupleType = Nr, I.assertTSType = kn, I.assertTSTypeAliasDeclaration = Jr, I.assertTSTypeAnnotation = Pi, I.assertTSTypeAssertion = ui, I.assertTSTypeElement = Ln, I.assertTSTypeLiteral = vr, I.assertTSTypeOperator = Br, I.assertTSTypeParameter = gi, I.assertTSTypeParameterDeclaration = Ai, I.assertTSTypeParameterInstantiation = Ei, I.assertTSTypePredicate = Ar, I.assertTSTypeQuery = gr, I.assertTSTypeReference = Er, I.assertTSUndefinedKeyword = mr, I.assertTSUnionType = Dr, I.assertTSUnknownKeyword = Tr, I.assertTSVoidKeyword = Sr, I.assertTaggedTemplateExpression = Lt, I.assertTemplateElement = Xt, I.assertTemplateLiteral = Wr, I.assertTerminatorless = f, I.assertThisExpression = St, I.assertThisTypeAnnotation = Es, I.assertThrowStatement = pe, I.assertTopicReference = ot, I.assertTryStatement = xt, I.assertTupleExpression = zs, I.assertTupleTypeAnnotation = As, I.assertTypeAlias = ht, I.assertTypeAnnotation = ir, I.assertTypeCastExpression = vs, I.assertTypeParameter = Is, I.assertTypeParameterDeclaration = Ns, I.assertTypeParameterInstantiation = Cs, I.assertTypeScript = Dn, I.assertTypeofTypeAnnotation = gs, I.assertUnaryExpression = Le, I.assertUnaryLike = yn, I.assertUnionTypeAnnotation = ar, I.assertUpdateExpression = ut, I.assertUserWhitespacable = pn, I.assertV8IntrinsicIdentifier = Js, I.assertVariableDeclaration = bt, I.assertVariableDeclarator = Ye, I.assertVariance = ws, I.assertVoidPattern = t, I.assertVoidTypeAnnotation = yt, I.assertWhile = _, I.assertWhileStatement = Pt, I.assertWithStatement = ct, I.assertYieldExpression = zr;
+  }), I.assertAccessor = bn, I.assertAnyTypeAnnotation = ie, I.assertArgumentPlaceholder = Ys, I.assertArrayExpression = o, I.assertArrayPattern = st, I.assertArrayTypeAnnotation = ss, I.assertArrowFunctionExpression = At, I.assertAssignmentExpression = S, I.assertAssignmentPattern = Et, I.assertAwaitExpression = $t, I.assertBigIntLiteral = zt, I.assertBinary = Ni, I.assertBinaryExpression = x, I.assertBindExpression = qt, I.assertBlock = Oi, I.assertBlockParent = wi, I.assertBlockStatement = k, I.assertBooleanLiteral = Me, I.assertBooleanLiteralTypeAnnotation = is, I.assertBooleanTypeAnnotation = Gt, I.assertBreakStatement = O, I.assertCallExpression = F, I.assertCatchClause = j, I.assertClass = Yi, I.assertClassAccessorProperty = Zr, I.assertClassBody = gt, I.assertClassDeclaration = It, I.assertClassExpression = vt, I.assertClassImplements = ns, I.assertClassMethod = $r, I.assertClassPrivateMethod = Mt, I.assertClassPrivateProperty = kt, I.assertClassProperty = Qr, I.assertCompletionStatement = h, I.assertConditional = b, I.assertConditionalExpression = R, I.assertContinueStatement = Z, I.assertDebuggerStatement = U, I.assertDecimalLiteral = Hs, I.assertDeclaration = sn, I.assertDeclareClass = os, I.assertDeclareExportAllDeclaration = $e, I.assertDeclareExportDeclaration = cs, I.assertDeclareFunction = ls, I.assertDeclareInterface = us, I.assertDeclareModule = pt, I.assertDeclareModuleExports = Ze, I.assertDeclareOpaqueType = _t, I.assertDeclareTypeAlias = Qt, I.assertDeclareVariable = Bt, I.assertDeclaredPredicate = Ue, I.assertDecorator = Xs, I.assertDirective = w, I.assertDirectiveLiteral = L, I.assertDoExpression = $s, I.assertDoWhileStatement = V, I.assertEmptyStatement = A, I.assertEmptyTypeAnnotation = Ke, I.assertEnumBody = Nn, I.assertEnumBooleanBody = jt, I.assertEnumBooleanMember = Kt, I.assertEnumDeclaration = mt, I.assertEnumDefaultedMember = H, I.assertEnumMember = Cn, I.assertEnumNumberBody = Os, I.assertEnumNumberMember = Ls, I.assertEnumStringBody = Ut, I.assertEnumStringMember = nr, I.assertEnumSymbolBody = Ds, I.assertExistsTypeAnnotation = et, I.assertExportAllDeclaration = Nt, I.assertExportDeclaration = Sn, I.assertExportDefaultDeclaration = Be, I.assertExportDefaultSpecifier = hr, I.assertExportNamedDeclaration = He, I.assertExportNamespaceSpecifier = Ht, I.assertExportSpecifier = Ct, I.assertExpression = Ii, I.assertExpressionStatement = Y, I.assertExpressionWrapper = ee, I.assertFile = te, I.assertFlow = En, I.assertFlowBaseAnnotation = gn, I.assertFlowDeclaration = vn, I.assertFlowPredicate = In, I.assertFlowType = An, I.assertFor = Ae, I.assertForInStatement = se, I.assertForOfStatement = Ge, I.assertForStatement = Te, I.assertForXStatement = Ce, I.assertFunction = tt, I.assertFunctionDeclaration = be, I.assertFunctionExpression = ve, I.assertFunctionParameter = an, I.assertFunctionParent = tn, I.assertFunctionTypeAnnotation = ps, I.assertFunctionTypeParam = fs, I.assertGenericTypeAnnotation = ds, I.assertIdentifier = ge, I.assertIfStatement = ue, I.assertImmutable = cn, I.assertImport = Wt, I.assertImportAttribute = rs, I.assertImportDeclaration = _e, I.assertImportDefaultSpecifier = it, I.assertImportExpression = Ot, I.assertImportNamespaceSpecifier = Qe, I.assertImportOrExportDeclaration = Tn, I.assertImportSpecifier = wt, I.assertIndexedAccessType = ks, I.assertInferredPredicate = hs, I.assertInterfaceDeclaration = ys, I.assertInterfaceExtends = ft, I.assertInterfaceTypeAnnotation = Zt, I.assertInterpreterDirective = M, I.assertIntersectionTypeAnnotation = ms, I.assertJSX = wn, I.assertJSXAttribute = Ms, I.assertJSXClosingElement = _s, I.assertJSXClosingFragment = Vs, I.assertJSXElement = Bs, I.assertJSXEmptyExpression = Fs, I.assertJSXExpressionContainer = lr, I.assertJSXFragment = Ks, I.assertJSXIdentifier = ur, I.assertJSXMemberExpression = cr, I.assertJSXNamespacedName = js, I.assertJSXOpeningElement = Us, I.assertJSXOpeningFragment = dr, I.assertJSXSpreadAttribute = pr, I.assertJSXSpreadChild = Rs, I.assertJSXText = fr, I.assertLVal = on, I.assertLabeledStatement = ae, I.assertLiteral = un, I.assertLogicalExpression = z, I.assertLoop = N, I.assertMemberExpression = ne, I.assertMetaProperty = $, I.assertMethod = fn, I.assertMiscellaneous = On, I.assertMixedTypeAnnotation = at, I.assertModuleDeclaration = a, I.assertModuleExpression = Gs, I.assertModuleSpecifier = xn, I.assertNewExpression = W, I.assertNoop = qs, I.assertNullLiteral = Ne, I.assertNullLiteralTypeAnnotation = as, I.assertNullableTypeAnnotation = Ts, I.assertNumberLiteral = _n, I.assertNumberLiteralTypeAnnotation = Ft, I.assertNumberTypeAnnotation = Ss, I.assertNumericLiteral = je, I.assertObjectExpression = ce, I.assertObjectMember = dn, I.assertObjectMethod = ye, I.assertObjectPattern = Dt, I.assertObjectProperty = Se, I.assertObjectTypeAnnotation = er, I.assertObjectTypeCallProperty = tr, I.assertObjectTypeIndexer = xs, I.assertObjectTypeInternalSlot = dt, I.assertObjectTypeProperty = bs, I.assertObjectTypeSpreadProperty = Rt, I.assertOpaqueType = rr, I.assertOptionalCallExpression = Gr, I.assertOptionalIndexedAccessType = or, I.assertOptionalMemberExpression = Hr, I.assertParenthesizedExpression = De, I.assertPattern = mn, I.assertPatternLike = nn, I.assertPipelineBareFunction = Qs, I.assertPipelinePrimaryTopicReference = y, I.assertPipelineTopicExpression = yr, I.assertPlaceholder = Vt, I.assertPrivate = Pn, I.assertPrivateName = es, I.assertProgram = Q, I.assertProperty = hn, I.assertPureish = rn, I.assertQualifiedTypeIdentifier = sr, I.assertRecordExpression = Ws, I.assertRegExpLiteral = Je, I.assertRegexLiteral = Bn, I.assertRestElement = me, I.assertRestProperty = Fn, I.assertReturnStatement = Ee, I.assertScopable = Ci, I.assertSequenceExpression = Oe, I.assertSpreadElement = Fe, I.assertSpreadProperty = Rn, I.assertStandardized = vi, I.assertStatement = p, I.assertStaticBlock = ts, I.assertStringLiteral = q, I.assertStringLiteralTypeAnnotation = nt, I.assertStringTypeAnnotation = Ps, I.assertSuper = Xe, I.assertSwitchCase = re, I.assertSwitchStatement = le, I.assertSymbolTypeAnnotation = Ve, I.assertTSAnyKeyword = B, I.assertTSArrayType = Ir, I.assertTSAsExpression = oi, I.assertTSBaseType = Mn, I.assertTSBigIntKeyword = X, I.assertTSBooleanKeyword = J, I.assertTSCallSignatureDeclaration = T, I.assertTSConditionalType = kr, I.assertTSConstructSignatureDeclaration = P, I.assertTSConstructorType = Pr, I.assertTSDeclareFunction = r, I.assertTSDeclareMethod = i, I.assertTSEntityName = ln, I.assertTSEnumBody = ci, I.assertTSEnumDeclaration = pi, I.assertTSEnumMember = fi, I.assertTSExportAssignment = xi, I.assertTSExpressionWithTypeArguments = Kr, I.assertTSExternalModuleReference = Ti, I.assertTSFunctionType = br, I.assertTSImportEqualsDeclaration = mi, I.assertTSImportType = yi, I.assertTSIndexSignature = D, I.assertTSIndexedAccessType = Fr, I.assertTSInferType = Mr, I.assertTSInstantiationExpression = Yr, I.assertTSInterfaceBody = qr, I.assertTSInterfaceDeclaration = Vr, I.assertTSIntersectionType = Lr, I.assertTSIntrinsicKeyword = G, I.assertTSLiteralType = Ur, I.assertTSMappedType = Rr, I.assertTSMethodSignature = C, I.assertTSModuleBlock = hi, I.assertTSModuleDeclaration = di, I.assertTSNamedTupleMember = Or, I.assertTSNamespaceExportDeclaration = bi, I.assertTSNeverKeyword = de, I.assertTSNonNullExpression = Si, I.assertTSNullKeyword = Pe, I.assertTSNumberKeyword = oe, I.assertTSObjectKeyword = xe, I.assertTSOptionalType = Cr, I.assertTSParameterProperty = e, I.assertTSParenthesizedType = _r, I.assertTSPropertySignature = g, I.assertTSQualifiedName = u, I.assertTSRestType = wr, I.assertTSSatisfiesExpression = li, I.assertTSStringKeyword = We, I.assertTSSymbolKeyword = qe, I.assertTSTemplateLiteralType = jr, I.assertTSThisType = xr, I.assertTSTupleType = Nr, I.assertTSType = kn, I.assertTSTypeAliasDeclaration = Jr, I.assertTSTypeAnnotation = Pi, I.assertTSTypeAssertion = ui, I.assertTSTypeElement = Ln, I.assertTSTypeLiteral = vr, I.assertTSTypeOperator = Br, I.assertTSTypeParameter = gi, I.assertTSTypeParameterDeclaration = Ai, I.assertTSTypeParameterInstantiation = Ei, I.assertTSTypePredicate = Ar, I.assertTSTypeQuery = gr, I.assertTSTypeReference = Er, I.assertTSUndefinedKeyword = mr, I.assertTSUnionType = Dr, I.assertTSUnknownKeyword = Tr, I.assertTSVoidKeyword = Sr, I.assertTaggedTemplateExpression = Lt, I.assertTemplateElement = Xt, I.assertTemplateLiteral = Wr, I.assertTerminatorless = f, I.assertThisExpression = St, I.assertThisTypeAnnotation = Es, I.assertThrowStatement = pe, I.assertTopicReference = ot, I.assertTryStatement = xt, I.assertTupleExpression = zs, I.assertTupleTypeAnnotation = As, I.assertTypeAlias = ht, I.assertTypeAnnotation = ir, I.assertTypeCastExpression = vs, I.assertTypeParameter = Is, I.assertTypeParameterDeclaration = Ns, I.assertTypeParameterInstantiation = Cs, I.assertTypeScript = Dn, I.assertTypeofTypeAnnotation = gs, I.assertUnaryExpression = Le, I.assertUnaryLike = yn, I.assertUnionTypeAnnotation = ar, I.assertUpdateExpression = ut, I.assertUserWhitespacable = pn, I.assertV8IntrinsicIdentifier = Js, I.assertVariableDeclaration = bt, I.assertVariableDeclarator = Ye, I.assertVariance = ws, I.assertVoidPattern = t, I.assertVoidTypeAnnotation = yt, I.assertWhile = _, I.assertWhileStatement = Pt, I.assertWithStatement = ct, I.assertYieldExpression = zr;
   var n = Ki(), l = Ui();
   function c(s, d, ro) {
     if (!(0, n.default)(s, d, ro))
@@ -7726,7 +7726,7 @@ function Uu() {
   function Z(s, d) {
     c("ContinueStatement", s, d);
   }
-  function K(s, d) {
+  function U(s, d) {
     c("DebuggerStatement", s, d);
   }
   function V(s, d) {
@@ -8736,8 +8736,8 @@ function qu() {
         const j = O[F], R = l(O.typeName);
         if (x.has(R)) {
           let Z = x.get(R);
-          const K = Z[F];
-          K ? (K.params.push(...j.params), K.params = c(K.params)) : Z = j;
+          const U = Z[F];
+          U ? (U.params.push(...j.params), U.params = c(U.params)) : Z = j;
         } else
           x.set(R, O);
         continue;
@@ -8820,11 +8820,11 @@ function ei() {
       if (R) return R;
       const {
         type: Z,
-        value: K,
+        value: U,
         loc: V
       } = j, A = {
         type: Z,
-        value: K,
+        value: U,
         loc: V
       };
       return O && (A.loc = null), F.set(j, A), A;
@@ -8981,16 +8981,16 @@ function Hu() {
   }
   return Ea;
 }
-var U = {}, ul;
+var K = {}, ul;
 function Gu() {
-  if (ul) return U;
-  ul = 1, Object.defineProperty(U, "__esModule", {
+  if (ul) return K;
+  ul = 1, Object.defineProperty(K, "__esModule", {
     value: !0
-  }), U.WHILE_TYPES = U.USERWHITESPACABLE_TYPES = U.UNARYLIKE_TYPES = U.TYPESCRIPT_TYPES = U.TSTYPE_TYPES = U.TSTYPEELEMENT_TYPES = U.TSENTITYNAME_TYPES = U.TSBASETYPE_TYPES = U.TERMINATORLESS_TYPES = U.STATEMENT_TYPES = U.STANDARDIZED_TYPES = U.SCOPABLE_TYPES = U.PUREISH_TYPES = U.PROPERTY_TYPES = U.PRIVATE_TYPES = U.PATTERN_TYPES = U.PATTERNLIKE_TYPES = U.OBJECTMEMBER_TYPES = U.MODULESPECIFIER_TYPES = U.MODULEDECLARATION_TYPES = U.MISCELLANEOUS_TYPES = U.METHOD_TYPES = U.LVAL_TYPES = U.LOOP_TYPES = U.LITERAL_TYPES = U.JSX_TYPES = U.IMPORTOREXPORTDECLARATION_TYPES = U.IMMUTABLE_TYPES = U.FUNCTION_TYPES = U.FUNCTIONPARENT_TYPES = U.FUNCTIONPARAMETER_TYPES = U.FOR_TYPES = U.FORXSTATEMENT_TYPES = U.FLOW_TYPES = U.FLOWTYPE_TYPES = U.FLOWPREDICATE_TYPES = U.FLOWDECLARATION_TYPES = U.FLOWBASEANNOTATION_TYPES = U.EXPRESSION_TYPES = U.EXPRESSIONWRAPPER_TYPES = U.EXPORTDECLARATION_TYPES = U.ENUMMEMBER_TYPES = U.ENUMBODY_TYPES = U.DECLARATION_TYPES = U.CONDITIONAL_TYPES = U.COMPLETIONSTATEMENT_TYPES = U.CLASS_TYPES = U.BLOCK_TYPES = U.BLOCKPARENT_TYPES = U.BINARY_TYPES = U.ACCESSOR_TYPES = void 0;
+  }), K.WHILE_TYPES = K.USERWHITESPACABLE_TYPES = K.UNARYLIKE_TYPES = K.TYPESCRIPT_TYPES = K.TSTYPE_TYPES = K.TSTYPEELEMENT_TYPES = K.TSENTITYNAME_TYPES = K.TSBASETYPE_TYPES = K.TERMINATORLESS_TYPES = K.STATEMENT_TYPES = K.STANDARDIZED_TYPES = K.SCOPABLE_TYPES = K.PUREISH_TYPES = K.PROPERTY_TYPES = K.PRIVATE_TYPES = K.PATTERN_TYPES = K.PATTERNLIKE_TYPES = K.OBJECTMEMBER_TYPES = K.MODULESPECIFIER_TYPES = K.MODULEDECLARATION_TYPES = K.MISCELLANEOUS_TYPES = K.METHOD_TYPES = K.LVAL_TYPES = K.LOOP_TYPES = K.LITERAL_TYPES = K.JSX_TYPES = K.IMPORTOREXPORTDECLARATION_TYPES = K.IMMUTABLE_TYPES = K.FUNCTION_TYPES = K.FUNCTIONPARENT_TYPES = K.FUNCTIONPARAMETER_TYPES = K.FOR_TYPES = K.FORXSTATEMENT_TYPES = K.FLOW_TYPES = K.FLOWTYPE_TYPES = K.FLOWPREDICATE_TYPES = K.FLOWDECLARATION_TYPES = K.FLOWBASEANNOTATION_TYPES = K.EXPRESSION_TYPES = K.EXPRESSIONWRAPPER_TYPES = K.EXPORTDECLARATION_TYPES = K.ENUMMEMBER_TYPES = K.ENUMBODY_TYPES = K.DECLARATION_TYPES = K.CONDITIONAL_TYPES = K.COMPLETIONSTATEMENT_TYPES = K.CLASS_TYPES = K.BLOCK_TYPES = K.BLOCKPARENT_TYPES = K.BINARY_TYPES = K.ACCESSOR_TYPES = void 0;
   var n = lt();
-  U.STANDARDIZED_TYPES = n.FLIPPED_ALIAS_KEYS.Standardized, U.EXPRESSION_TYPES = n.FLIPPED_ALIAS_KEYS.Expression, U.BINARY_TYPES = n.FLIPPED_ALIAS_KEYS.Binary, U.SCOPABLE_TYPES = n.FLIPPED_ALIAS_KEYS.Scopable, U.BLOCKPARENT_TYPES = n.FLIPPED_ALIAS_KEYS.BlockParent, U.BLOCK_TYPES = n.FLIPPED_ALIAS_KEYS.Block, U.STATEMENT_TYPES = n.FLIPPED_ALIAS_KEYS.Statement, U.TERMINATORLESS_TYPES = n.FLIPPED_ALIAS_KEYS.Terminatorless, U.COMPLETIONSTATEMENT_TYPES = n.FLIPPED_ALIAS_KEYS.CompletionStatement, U.CONDITIONAL_TYPES = n.FLIPPED_ALIAS_KEYS.Conditional, U.LOOP_TYPES = n.FLIPPED_ALIAS_KEYS.Loop, U.WHILE_TYPES = n.FLIPPED_ALIAS_KEYS.While, U.EXPRESSIONWRAPPER_TYPES = n.FLIPPED_ALIAS_KEYS.ExpressionWrapper, U.FOR_TYPES = n.FLIPPED_ALIAS_KEYS.For, U.FORXSTATEMENT_TYPES = n.FLIPPED_ALIAS_KEYS.ForXStatement, U.FUNCTION_TYPES = n.FLIPPED_ALIAS_KEYS.Function, U.FUNCTIONPARENT_TYPES = n.FLIPPED_ALIAS_KEYS.FunctionParent, U.PUREISH_TYPES = n.FLIPPED_ALIAS_KEYS.Pureish, U.DECLARATION_TYPES = n.FLIPPED_ALIAS_KEYS.Declaration, U.FUNCTIONPARAMETER_TYPES = n.FLIPPED_ALIAS_KEYS.FunctionParameter, U.PATTERNLIKE_TYPES = n.FLIPPED_ALIAS_KEYS.PatternLike, U.LVAL_TYPES = n.FLIPPED_ALIAS_KEYS.LVal, U.TSENTITYNAME_TYPES = n.FLIPPED_ALIAS_KEYS.TSEntityName, U.LITERAL_TYPES = n.FLIPPED_ALIAS_KEYS.Literal, U.IMMUTABLE_TYPES = n.FLIPPED_ALIAS_KEYS.Immutable, U.USERWHITESPACABLE_TYPES = n.FLIPPED_ALIAS_KEYS.UserWhitespacable, U.METHOD_TYPES = n.FLIPPED_ALIAS_KEYS.Method, U.OBJECTMEMBER_TYPES = n.FLIPPED_ALIAS_KEYS.ObjectMember, U.PROPERTY_TYPES = n.FLIPPED_ALIAS_KEYS.Property, U.UNARYLIKE_TYPES = n.FLIPPED_ALIAS_KEYS.UnaryLike, U.PATTERN_TYPES = n.FLIPPED_ALIAS_KEYS.Pattern, U.CLASS_TYPES = n.FLIPPED_ALIAS_KEYS.Class;
-  const l = U.IMPORTOREXPORTDECLARATION_TYPES = n.FLIPPED_ALIAS_KEYS.ImportOrExportDeclaration;
-  return U.EXPORTDECLARATION_TYPES = n.FLIPPED_ALIAS_KEYS.ExportDeclaration, U.MODULESPECIFIER_TYPES = n.FLIPPED_ALIAS_KEYS.ModuleSpecifier, U.ACCESSOR_TYPES = n.FLIPPED_ALIAS_KEYS.Accessor, U.PRIVATE_TYPES = n.FLIPPED_ALIAS_KEYS.Private, U.FLOW_TYPES = n.FLIPPED_ALIAS_KEYS.Flow, U.FLOWTYPE_TYPES = n.FLIPPED_ALIAS_KEYS.FlowType, U.FLOWBASEANNOTATION_TYPES = n.FLIPPED_ALIAS_KEYS.FlowBaseAnnotation, U.FLOWDECLARATION_TYPES = n.FLIPPED_ALIAS_KEYS.FlowDeclaration, U.FLOWPREDICATE_TYPES = n.FLIPPED_ALIAS_KEYS.FlowPredicate, U.ENUMBODY_TYPES = n.FLIPPED_ALIAS_KEYS.EnumBody, U.ENUMMEMBER_TYPES = n.FLIPPED_ALIAS_KEYS.EnumMember, U.JSX_TYPES = n.FLIPPED_ALIAS_KEYS.JSX, U.MISCELLANEOUS_TYPES = n.FLIPPED_ALIAS_KEYS.Miscellaneous, U.TYPESCRIPT_TYPES = n.FLIPPED_ALIAS_KEYS.TypeScript, U.TSTYPEELEMENT_TYPES = n.FLIPPED_ALIAS_KEYS.TSTypeElement, U.TSTYPE_TYPES = n.FLIPPED_ALIAS_KEYS.TSType, U.TSBASETYPE_TYPES = n.FLIPPED_ALIAS_KEYS.TSBaseType, U.MODULEDECLARATION_TYPES = l, U;
+  K.STANDARDIZED_TYPES = n.FLIPPED_ALIAS_KEYS.Standardized, K.EXPRESSION_TYPES = n.FLIPPED_ALIAS_KEYS.Expression, K.BINARY_TYPES = n.FLIPPED_ALIAS_KEYS.Binary, K.SCOPABLE_TYPES = n.FLIPPED_ALIAS_KEYS.Scopable, K.BLOCKPARENT_TYPES = n.FLIPPED_ALIAS_KEYS.BlockParent, K.BLOCK_TYPES = n.FLIPPED_ALIAS_KEYS.Block, K.STATEMENT_TYPES = n.FLIPPED_ALIAS_KEYS.Statement, K.TERMINATORLESS_TYPES = n.FLIPPED_ALIAS_KEYS.Terminatorless, K.COMPLETIONSTATEMENT_TYPES = n.FLIPPED_ALIAS_KEYS.CompletionStatement, K.CONDITIONAL_TYPES = n.FLIPPED_ALIAS_KEYS.Conditional, K.LOOP_TYPES = n.FLIPPED_ALIAS_KEYS.Loop, K.WHILE_TYPES = n.FLIPPED_ALIAS_KEYS.While, K.EXPRESSIONWRAPPER_TYPES = n.FLIPPED_ALIAS_KEYS.ExpressionWrapper, K.FOR_TYPES = n.FLIPPED_ALIAS_KEYS.For, K.FORXSTATEMENT_TYPES = n.FLIPPED_ALIAS_KEYS.ForXStatement, K.FUNCTION_TYPES = n.FLIPPED_ALIAS_KEYS.Function, K.FUNCTIONPARENT_TYPES = n.FLIPPED_ALIAS_KEYS.FunctionParent, K.PUREISH_TYPES = n.FLIPPED_ALIAS_KEYS.Pureish, K.DECLARATION_TYPES = n.FLIPPED_ALIAS_KEYS.Declaration, K.FUNCTIONPARAMETER_TYPES = n.FLIPPED_ALIAS_KEYS.FunctionParameter, K.PATTERNLIKE_TYPES = n.FLIPPED_ALIAS_KEYS.PatternLike, K.LVAL_TYPES = n.FLIPPED_ALIAS_KEYS.LVal, K.TSENTITYNAME_TYPES = n.FLIPPED_ALIAS_KEYS.TSEntityName, K.LITERAL_TYPES = n.FLIPPED_ALIAS_KEYS.Literal, K.IMMUTABLE_TYPES = n.FLIPPED_ALIAS_KEYS.Immutable, K.USERWHITESPACABLE_TYPES = n.FLIPPED_ALIAS_KEYS.UserWhitespacable, K.METHOD_TYPES = n.FLIPPED_ALIAS_KEYS.Method, K.OBJECTMEMBER_TYPES = n.FLIPPED_ALIAS_KEYS.ObjectMember, K.PROPERTY_TYPES = n.FLIPPED_ALIAS_KEYS.Property, K.UNARYLIKE_TYPES = n.FLIPPED_ALIAS_KEYS.UnaryLike, K.PATTERN_TYPES = n.FLIPPED_ALIAS_KEYS.Pattern, K.CLASS_TYPES = n.FLIPPED_ALIAS_KEYS.Class;
+  const l = K.IMPORTOREXPORTDECLARATION_TYPES = n.FLIPPED_ALIAS_KEYS.ImportOrExportDeclaration;
+  return K.EXPORTDECLARATION_TYPES = n.FLIPPED_ALIAS_KEYS.ExportDeclaration, K.MODULESPECIFIER_TYPES = n.FLIPPED_ALIAS_KEYS.ModuleSpecifier, K.ACCESSOR_TYPES = n.FLIPPED_ALIAS_KEYS.Accessor, K.PRIVATE_TYPES = n.FLIPPED_ALIAS_KEYS.Private, K.FLOW_TYPES = n.FLIPPED_ALIAS_KEYS.Flow, K.FLOWTYPE_TYPES = n.FLIPPED_ALIAS_KEYS.FlowType, K.FLOWBASEANNOTATION_TYPES = n.FLIPPED_ALIAS_KEYS.FlowBaseAnnotation, K.FLOWDECLARATION_TYPES = n.FLIPPED_ALIAS_KEYS.FlowDeclaration, K.FLOWPREDICATE_TYPES = n.FLIPPED_ALIAS_KEYS.FlowPredicate, K.ENUMBODY_TYPES = n.FLIPPED_ALIAS_KEYS.EnumBody, K.ENUMMEMBER_TYPES = n.FLIPPED_ALIAS_KEYS.EnumMember, K.JSX_TYPES = n.FLIPPED_ALIAS_KEYS.JSX, K.MISCELLANEOUS_TYPES = n.FLIPPED_ALIAS_KEYS.Miscellaneous, K.TYPESCRIPT_TYPES = n.FLIPPED_ALIAS_KEYS.TypeScript, K.TSTYPEELEMENT_TYPES = n.FLIPPED_ALIAS_KEYS.TSTypeElement, K.TSTYPE_TYPES = n.FLIPPED_ALIAS_KEYS.TSType, K.TSBASETYPE_TYPES = n.FLIPPED_ALIAS_KEYS.TSBaseType, K.MODULEDECLARATION_TYPES = l, K;
 }
 var Aa = {}, ga = {}, cl;
 function hu() {
@@ -9908,7 +9908,7 @@ function to() {
     }), Object.defineProperty(n, "cloneDeepWithoutLoc", {
       enumerable: !0,
       get: function() {
-        return K.default;
+        return U.default;
       }
     }), Object.defineProperty(n, "cloneNode", {
       enumerable: !0,
@@ -10183,7 +10183,7 @@ function to() {
         }
       });
     });
-    var j = ei(), R = Yu(), Z = Xu(), K = $u(), V = Wu(), A = zu(), Y = uu(), te = cu(), se = pu(), Te = du(), be = fu(), ve = Hu(), ge = Gu();
+    var j = ei(), R = Yu(), Z = Xu(), U = $u(), V = Wu(), A = zu(), Y = uu(), te = cu(), se = pu(), Te = du(), be = fu(), ve = Hu(), ge = Gu();
     Object.keys(ge).forEach(function($) {
       $ === "default" || $ === "__esModule" || Object.prototype.hasOwnProperty.call(l, $) || $ in n && n[$] === ge[$] || Object.defineProperty(n, $, {
         enumerable: !0,
@@ -10573,7 +10573,7 @@ function gc() {
       value: e
     });
   }
-  function K({
+  function U({
     toMessage: y,
     code: t,
     reasonCode: e,
@@ -10628,7 +10628,7 @@ function gc() {
       } : i, {
         message: T
       } = u, P = n(u, R), g = typeof T == "string" ? () => T : T;
-      e[r] = K(Object.assign({
+      e[r] = U(Object.assign({
         code: "BABEL_PARSER_SYNTAX_ERROR",
         reasonCode: r,
         toMessage: g
@@ -20192,7 +20192,7 @@ function Tp() {
           for (let j = O.length - 1; j >= 0; j--) {
             let R = O[j];
             if (!Re.isImportDeclaration(R)) continue;
-            const Z = R.source.value, K = [];
+            const Z = R.source.value, U = [];
             for (const V of jc) {
               if (!V.module.test(Z)) continue;
               const { method: A } = V;
@@ -20207,7 +20207,7 @@ function Tp() {
                     F[te] = V.links;
                     break;
                   case Wn:
-                    K.push(
+                    U.push(
                       Xc(
                         te,
                         se
@@ -20217,13 +20217,13 @@ function Tp() {
                 }
               }
             }
-            O.splice(j, 1, ...K);
+            U.length && O.splice(j, 1, ...U);
           }
           Object.entries(F).forEach(
             ([j, R]) => {
               const Z = k.scope.getBinding(j);
-              Z !== void 0 && (Z.referencePaths.forEach((K) => {
-                $c(K, j, R);
+              Z !== void 0 && (Z.referencePaths.forEach((U) => {
+                $c(U, j, R);
               }), Z.scope.removeOwnBinding(j));
             }
           );
