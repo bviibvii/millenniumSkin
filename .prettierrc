@@ -1,0 +1,7 @@
+{
+  "endOfLine": "crlf",
+  "tabWidth": 4,
+  "useTabs": false,
+  "prettier.singleQuote": false,
+  "prettier.semi": true
+}

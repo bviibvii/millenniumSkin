@@ -1,0 +1,9 @@
+export const Root = /^SharedJSContext$/;
+export const LibraryRoot = /^Steam$/;
+export const MenuView = /^View Root Menu$/;
+export const MenuSteam = /^Steam Root Menu$/;
+export const MenuFriends = /^Friends Root Menu$/;
+export const MenuGames = /^Games Root Menu$/;
+export const MenuHelp = /^Help Root Menu$/;
+export const MenuNotifications = /^Notifications Menu$/;
+export const MenuAccount = /^Account Menu$/;

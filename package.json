@@ -1,0 +1,57 @@
+{
+    "name": "millennium-skin",
+    "version": "1.0.0-rc.4.beta.1",
+    "main": "index.js",
+    "type": "module",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "lint": "eslint . --ext .ts",
+        "build": "tsc --noEmit && cross-env RELEASE=beta vite build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bviibvii/Transparent-theme.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bviibvii/Transparent-theme/issues"
+    },
+    "homepage": "https://github.com/bviibvii/Transparent-theme#readme",
+    "description": "",
+    "devDependencies": {
+        "@babel/preset-typescript": "^7.28.5",
+        "@types/babel__core": "^7.20.5",
+        "bestzip": "^2.2.1",
+        "eslint": "^9.39.2",
+        "globals": "^16.5.0",
+        "prettier": "^3.7.3",
+        "ts-loader": "^9.5.4",
+        "typescript": "^5.9.3",
+        "vite": "^7.2.7"
+    },
+    "eslintConfig": {
+        "env": {
+            "browser": true,
+            "node": true,
+            "es2021": true
+        }
+    },
+    "dependencies": {
+        "@babel/core": "^7.28.5",
+        "@babel/generator": "^7.28.5",
+        "@babel/parser": "^7.28.5",
+        "@babel/traverse": "^7.28.5",
+        "@babel/types": "^7.28.5",
+        "@types/react": "^19.2.7",
+        "@types/react-dom": "^19.2.3",
+        "@typescript-eslint/eslint-plugin": "^8.50.1",
+        "babel-plugin-transform-typescript": "^7.0.0-alpha.19",
+        "chalk": "^5.6.2",
+        "cross-env": "^10.1.0",
+        "vite-plugin-dts": "^4.5.4"
+    }
+}
