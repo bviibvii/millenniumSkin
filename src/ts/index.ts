@@ -24,6 +24,7 @@ import { __AUTO__, __PACKAGE__ } from "./versionConfig";
 export * from "./aliasModules";
 export * from "./defaultMatch";
 export * from "./versionConfig";
+export * from "../types/index";
 
 const traver = (traverse as any).default as typeof traverse;
 const SEMANTIC_VERSIONING_REGEXP =
