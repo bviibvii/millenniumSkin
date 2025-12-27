@@ -5,22 +5,34 @@ import dts from "vite-plugin-dts";
 
 const rg: any = {
     build: {
-        ssr: true,
+        target: "node18",
         lib: {
             entry: resolve(__dirname, "src/ts/index.ts"),
-            name: "VitePluginMillenniumSkin",
             fileName: "index",
             formats: ["es"],
         },
         outDir: "dist",
         emptyOutDir: true,
         rollupOptions: {
-            external: ["vite"],
+            external: [
+                "vite",
+                "path/posix",
+                "path",
+                "fs",
+                "fs/promises",
+                "@babel/traverse",
+                "@babel/generator",
+            ],
+            output: {
+                preserveModules: false,
+            },
+            makeAbsoluteExternalsRelative: false,
         },
     },
     plugins: [
         dts({
             insertTypesEntry: true,
+            include: ["src/**/*.{ts,tsx}", "src/types/**/*"],
         }),
     ],
 };

@@ -1,14 +1,15 @@
 {
     "name": "vite-plugin-millennium-skin",
-    "version": "1.0.2",
+    "version": "1.0.5",
     "main": "./dist/index.js",
     "type": "module",
     "directories": {
         "test": "test"
     },
+    "types": "dist/index.d.ts",
     "scripts": {
         "lint": "eslint . --ext .ts",
-        "build": "tsc --noEmit && cross-env RELEASE=beta vite build"
+        "build": "tsc --noEmit && vite build"
     },
     "repository": {
         "type": "git",
