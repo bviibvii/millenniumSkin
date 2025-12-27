@@ -1,9 +1,0 @@
-export declare const Root: RegExp;
-export declare const LibraryRoot: RegExp;
-export declare const MenuView: RegExp;
-export declare const MenuSteam: RegExp;
-export declare const MenuFriends: RegExp;
-export declare const MenuGames: RegExp;
-export declare const MenuHelp: RegExp;
-export declare const MenuNotifications: RegExp;
-export declare const MenuAccount: RegExp;
