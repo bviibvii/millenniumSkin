@@ -7,7 +7,7 @@ const git = simpleGit();
 export async function gitCommit() {
     const answers = await inquirer.prompt([
         {
-            type: "list",
+            type: "select",
             name: "type",
             message: "选择提交类型:",
             choices: [
