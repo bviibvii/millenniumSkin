@@ -420,7 +420,8 @@ export default function millenniumSkin(): Plugin {
                     const gitConfig = skinConfig.version.git[
                         tag
                     ] as autoCommitLevel;
-                    if (gitConfig.autoCommit) await gitCommit();
+                    if (gitConfig.autoCommit)
+                        await gitCommit(gitConfig.needCommitMessage);
                 }
             }
         },

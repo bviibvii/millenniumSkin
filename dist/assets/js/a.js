@@ -1,1 +1,1 @@
-const e={native:{major:1,minor:0,patch:9,beta:1},new:{major:1,minor:0,patch:9,beta:2},nativeString:"1.0.9-beta.1",newString:"1.0.9-beta.2"},n=window.opener.SP_REACT.createElement;n("div");console.log(e);
+const e={native:{major:1,minor:0,patch:9,beta:2},new:{major:1,minor:0,patch:9,beta:3},nativeString:"1.0.9-beta.2",newString:"1.0.9-beta.3"},n=window.opener.SP_REACT.createElement;n("div");console.log(e);

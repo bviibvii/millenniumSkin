@@ -4,12 +4,12 @@ export const __AUTO__: versionConfig = {
         major: { autoCommit: false },
         minor: { autoCommit: false },
         patch: { autoCommit: false },
-        rc: { autoCommit: true },
-        gamma: { autoCommit: true },
-        beta: { autoCommit: true },
-        preview: { autoCommit: true },
-        alpha: { autoCommit: true },
-        snapshot: { autoCommit: true },
+        rc: { autoCommit: true, needCommitMessage: true },
+        gamma: { autoCommit: true, needCommitMessage: true },
+        beta: { autoCommit: true, needCommitMessage: true },
+        preview: { autoCommit: true, needCommitMessage: false },
+        alpha: { autoCommit: true, needCommitMessage: false },
+        snapshot: { autoCommit: true, needCommitMessage: false },
     },
 };
 
@@ -30,9 +30,14 @@ export const __PACKAGE__: versionConfig = {
 
 export const __DEFAULT__: versionConfig = __AUTO__;
 
-export type autoCommitLevel = {
-    autoCommit: boolean;
-};
+export type autoCommitLevel =
+    | {
+          autoCommit: false;
+      }
+    | {
+          autoCommit: true;
+          needCommitMessage: boolean;
+      };
 
 export type versionConfig = {
     type: "auto" | "package";
