@@ -42,17 +42,17 @@ export async function gitCommit(needCommitMessage: boolean = false) {
         try {
             await git.add(".");
             await git.commit(`${answers.type}: ${answers.message}`);
-            info("✅ 提交成功");
+            info("✓ git提交成功");
         } catch (e) {
-            error(`❌ 提交失败: ${(e as Error).message}`);
+            error(`❌ git提交失败: ${(e as Error).message}`);
         }
     } else {
         try {
             await git.add(".");
             await git.commit("chore: auto commit by MillenniumSkin");
-            info("✅ 提交成功");
+            info("✓ git提交成功");
         } catch (e) {
-            error(`❌ 提交失败: ${(e as Error).message}`);
+            error(`❌ git提交失败: ${(e as Error).message}`);
         }
     }
 }
