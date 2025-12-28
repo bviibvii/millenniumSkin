@@ -25,6 +25,8 @@ const rg: any = {
                 "@babel/types",
                 "@babel/parser",
                 "chalk",
+                "inquirer",
+                "simple-git",
             ],
             output: {
                 preserveModules: false,
@@ -51,4 +53,4 @@ const rt: any = {
     plugins: [aaa()],
 };
 
-export default defineConfig(rt);
+export default defineConfig(rg);
