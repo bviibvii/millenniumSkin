@@ -22,6 +22,9 @@ const rg: any = {
                 "fs/promises",
                 "@babel/traverse",
                 "@babel/generator",
+                "@babel/types",
+                "@babel/parser",
+                "chalk",
             ],
             output: {
                 preserveModules: false,
@@ -48,4 +51,4 @@ const rt: any = {
     plugins: [aaa()],
 };
 
-export default defineConfig(rg);
+export default defineConfig(rt);

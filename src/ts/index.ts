@@ -1,5 +1,6 @@
 import type { Plugin, ResolvedConfig, Logger, LogOptions } from "vite";
 import type { Statement, MemberExpression, Identifier } from "@babel/types";
+import type { autoCommitLevel, versionConfig } from "./versionConfig";
 import type { NodePath } from "@babel/traverse";
 import t from "@babel/types";
 import { parse } from "@babel/parser";
@@ -12,10 +13,12 @@ import { loadConfigFromFile } from "vite";
 import chalk from "chalk";
 import defaultPatches from "./defaultPatches";
 import aliasModules, { __DIRECT__, __RUNTIME__ } from "./aliasModules";
-import { __AUTO__, __PACKAGE__ } from "./versionConfig";
+import { __DEFAULT__ } from "./versionConfig";
+import { gitCommit } from "./git";
 
 export * from "./aliasModules";
 export * from "./defaultMatch";
+export * from "./versionConfig";
 export * from "./versionConfig";
 
 export type SkinConfig = {
@@ -100,11 +103,6 @@ export type versionObject = {
     snapshot?: number;
 };
 
-export enum versionConfig {
-    auto,
-    package,
-}
-
 const traver = (traverse as any).default as typeof traverse;
 const SEMANTIC_VERSIONING_REGEXP =
     /(?<major>0|[1-9]\d*)\.(?<minor>0|[1-9]\d*)\.(?<patch>0|[1-9]\d*)(?:-(?<preRelease>(?:[a-zA-Z1-9][a-zA-Z\d]*|0\d*[a-zA-Z][a-zA-Z\d]*|0)(?:\.(?:[a-zA-Z1-9][a-zA-Z\d]*|0\d*[a-zA-Z][a-zA-Z\d]*|0))*))?(?:\+(?<metadata>(?:[a-zA-Z\d-]*)(?:\.(?:[a-zA-Z\d-]*))*))?/;
@@ -118,9 +116,24 @@ export default function millenniumSkin(): Plugin {
     let skinConfig: SkinConfig;
     let skinConfigResult: SkinConfigResult;
     let viteConfig: ResolvedConfig;
+    let versions: bumpResult | undefined;
+    const virtualModuleId = "virtual:millennium-skin";
+    const resolvedVirtualModuleId = "\0" + virtualModuleId;
     return {
         name: "vite-plugin-millennium-skin",
         enforce: "pre",
+
+        resolveId(source) {
+            if (source === virtualModuleId) {
+                return resolvedVirtualModuleId;
+            }
+        },
+
+        load(id) {
+            if (id === resolvedVirtualModuleId) {
+                return `export const version = ${versions ? JSON.stringify(versions) : "undefined"};`;
+            }
+        },
 
         async config(config) {
             const res = await loadConfigFromFile(
@@ -180,9 +193,44 @@ export default function millenniumSkin(): Plugin {
             };
         },
 
-        configResolved(config) {
+        async configResolved(config) {
             viteConfig = config;
             logger = config.logger;
+
+            const root = viteConfig.root;
+            const pkgPath = join(root, "package.json");
+            if (skinConfig.version === undefined)
+                skinConfig.version = __DEFAULT__;
+            // 版本自动管理
+            try {
+                const pkg = JSON.parse(
+                    await fsp.readFile(pkgPath, {
+                        flag: "r",
+                        encoding: "utf-8",
+                    }),
+                );
+
+                if (skinConfig.version.type === "auto") {
+                    versions = await bump_version(
+                        pkg.version,
+                        process.env.RELEASE as any,
+                    );
+                    if (versions) {
+                        const newVersion = versions.newString;
+                        pkg.version = newVersion;
+                        await fsp.writeFile(
+                            pkgPath,
+                            JSON.stringify(pkg, null, 4),
+                        );
+                        info(`${versions.nativeString} -> ${newVersion}`);
+                    }
+                } else if (skinConfig.version.type === "package") {
+                    versions = await bump_version(pkg.version);
+                }
+            } catch (e) {
+                warn(`can't use package.json: ${e}`);
+                versions = await bump_version("0.0.0");
+            }
         },
 
         generateBundle(_, bundles) {
@@ -224,9 +272,8 @@ export default function millenniumSkin(): Plugin {
 
                 const compileLib = bundle.fileName;
                 if (type === "chunk") {
-                    const compileParsed = path.parse(
-                        bundle.facadeModuleId as string,
-                    );
+                    if (!bundle.facadeModuleId) return;
+                    const compileParsed = path.parse(bundle.facadeModuleId);
                     const compilePath = join(
                         compileParsed.dir,
                         compileParsed.name,
@@ -264,47 +311,12 @@ export default function millenniumSkin(): Plugin {
             skinConfigResult = {
                 ...skinConfig,
                 Patches: patches,
-                version: "",
+                version: versions?.newString ?? "0.0.0",
             };
         },
 
         async writeBundle() {
             const root = viteConfig.root;
-            const pkgPath = join(root, "package.json");
-            // 版本自动管理
-            try {
-                const pkg = JSON.parse(
-                    await fsp.readFile(pkgPath, {
-                        flag: "r",
-                        encoding: "utf-8",
-                    }),
-                );
-                if (
-                    skinConfig.version === __AUTO__ ||
-                    skinConfig.version === undefined
-                ) {
-                    const versions = await bump_version(
-                        pkg.version,
-                        process.env.RELEASE as any,
-                    );
-                    if (versions) {
-                        const newVersion = versionObjToString(versions.new);
-                        skinConfigResult.version = newVersion;
-                        pkg.version = newVersion;
-                        await fsp.writeFile(
-                            pkgPath,
-                            JSON.stringify(pkg, null, 4),
-                        );
-                        info(
-                            `${versionObjToString(versions.native)} -> ${newVersion}`,
-                        );
-                    }
-                } else if (skinConfig.version === __PACKAGE__) {
-                    skinConfigResult.version = pkg.version;
-                }
-            } catch (e) {
-                warn(`can't use package.json: ${e}`);
-            }
 
             // 写入skin.json
             try {
@@ -325,7 +337,7 @@ export default function millenniumSkin(): Plugin {
 
             const ast = parse(code, {
                 sourceType: "module",
-                plugins: ["typescript"],
+                plugins: ["typescript", "jsx"],
             });
             traver(ast, {
                 Program(path) {
@@ -394,6 +406,24 @@ export default function millenniumSkin(): Plugin {
             const result = generate(ast);
             return { code: result.code };
         },
+
+        async closeBundle(error?: Error) {
+            if (error) {
+                console.error("打包失败:", error);
+                return;
+            }
+            if (skinConfig.version?.git !== undefined) {
+                const tag = process.env.RELEASE as
+                    | keyof versionConfig["git"]
+                    | undefined;
+                if (tag && skinConfig.version.git[tag]) {
+                    const gitConfig = skinConfig.version.git[
+                        tag
+                    ] as autoCommitLevel;
+                    if (gitConfig.autoCommit) await gitCommit();
+                }
+            }
+        },
     };
 }
 
@@ -460,7 +490,16 @@ function createNestedMemberExpression(globalObj: string[]): t.MemberExpression {
     return node as t.MemberExpression;
 }
 
-async function bump_version(nativeVersion: string, tag: bump_tag = "snapshot") {
+type bumpResult = {
+    native: versionObject;
+    new: versionObject;
+    nativeString: string;
+    newString: string;
+};
+async function bump_version(
+    nativeVersion: string,
+    tag: bump_tag = null,
+): Promise<bumpResult | undefined> {
     try {
         const match = SEMANTIC_VERSIONING_REGEXP.exec(nativeVersion);
 
@@ -547,6 +586,8 @@ async function bump_version(nativeVersion: string, tag: bump_tag = "snapshot") {
         return {
             native: nativeVersionObj,
             new: version,
+            nativeString: nativeVersion,
+            newString: versionObjToString(version),
         };
     } catch (e) {
         warn(`can't bump version: ${e}`);
@@ -575,13 +616,19 @@ function versionObjToString(version: versionObject) {
     return versionString;
 }
 
-function warn(msg: string, options?: LogOptions) {
+export function warn(msg: string, options?: LogOptions) {
     if (logger) logger.warn(chalk.yellow(`[MillenniumSkin] ${msg}`), options);
     else console.warn(chalk.yellow(`[MillenniumSkin] ${msg}`));
 }
 
-function info(msg: string, options?: LogOptions) {
+export function info(msg: string, options?: LogOptions) {
     if (logger)
         logger.info(chalk.greenBright(`[MillenniumSkin] ${msg}`), options);
     else console.log(chalk.greenBright(`[MillenniumSkin] ${msg}`));
+}
+
+export function error(msg: string, options?: LogOptions) {
+    if (logger)
+        logger.error(chalk.redBright(`[MillenniumSkin] ${msg}`), options);
+    else console.error(chalk.redBright(`[MillenniumSkin] ${msg}`));
 }

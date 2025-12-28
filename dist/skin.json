@@ -1,0 +1,22 @@
+{
+    "name": "Transparent Steam",
+    "description": "description",
+    "author": "bvii",
+    "header_image": "",
+    "splash_image": "",
+    "github": {
+        "owner": "bviibvii",
+        "repo_name": "steam"
+    },
+    "RootColors": "assets/css/color.css",
+    "Patches": [
+        {
+            "MatchRegexString": "^Steam$",
+            "TargetJs": "assets/js/a.js",
+            "TargetCss": "assets/css/a.css"
+        }
+    ],
+    "srcCss": "lib",
+    "srcJs": "lib",
+    "version": "1.0.9-beta.1"
+}
